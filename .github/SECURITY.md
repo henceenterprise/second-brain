@@ -42,4 +42,4 @@
 
 Maintenance is provided as availability permits, without guaranteed response or repair times.
 
-[Maintenance index](README.md) · [GitHub private reporting documentation](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository)
+[Maintenance index](MAINTENANCE.md) · [GitHub private reporting documentation](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository)

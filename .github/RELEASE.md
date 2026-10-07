@@ -46,4 +46,4 @@ Template and Helpers: [MIT / Hence](../LICENSE). Plugins keep [their own license
 
 [Issues](https://github.com/henceenterprise/second-brain/issues) for bugs/questions/suggestions; [private security guidance](SECURITY.md) for vulnerabilities. Maintenance has no guaranteed schedule or response time. Use [selective updates](UPDATING.md), keeping personal notes and settings.
 
-[Maintenance index](README.md)
+[Maintenance index](MAINTENANCE.md)

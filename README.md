@@ -67,4 +67,4 @@ No account, Git, or AI needed. Templater startup scripts and system commands are
 - **Keep tool paths stable:** see [System](system/SYSTEM.md) before renaming journal, task, template, drawing, or board paths.
 - Deleted files go to `.trash`. Use local `history` or `archived` folders only for versions worth keeping.
 
-Template and Helpers: **MIT / Hence**. Plugins retain their licenses. See the [maintenance guide](https://github.com/henceenterprise/second-brain/blob/Main/.github/README.md) for sources, support, and selective updates; license texts are included in the package.
+Template and Helpers: **MIT / Hence**. Plugins retain their licenses. See the [maintenance guide](https://github.com/henceenterprise/second-brain/blob/Main/.github/MAINTENANCE.md) for sources, support, and selective updates; license texts are included in the package.

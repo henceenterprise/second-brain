@@ -25,4 +25,4 @@ Maintenance depends on availability; responses and fixes have no guaranteed dead
 
 Do not include private notes, real attachments, credentials, device paths, or full personal logs in Issues or pull requests.
 
-[Maintenance index](README.md) · [Updating](UPDATING.md)
+[Maintenance index](MAINTENANCE.md) · [Updating](UPDATING.md)

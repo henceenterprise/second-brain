@@ -37,4 +37,4 @@ A downloaded vault becomes your personal copy. **Do not extract a later release 
 - Compatibility changes and any migrations must be explained in each later release.
 - There is no automatic template updater or guaranteed release schedule.
 
-[Changelog](CHANGELOG.md) · [Helper maintenance](../.obsidian/plugins/second-brain-helpers/README.md) · [Maintenance index](README.md)
+[Changelog](CHANGELOG.md) · [Helper maintenance](../.obsidian/plugins/second-brain-helpers/README.md) · [Maintenance index](MAINTENANCE.md)
