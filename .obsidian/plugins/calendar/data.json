@@ -1,0 +1,10 @@
+{
+  "shouldConfirmBeforeCreate": true,
+  "weekStart": "monday",
+  "wordsPerDot": 250,
+  "showWeeklyNote": true,
+  "weeklyNoteFormat": "GGGG-[W]WW",
+  "weeklyNoteTemplate": "system/templates/layouts/WEEKLY",
+  "weeklyNoteFolder": "planner/journal/weekly",
+  "localeOverride": "en-gb"
+}

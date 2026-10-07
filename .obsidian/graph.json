@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"inbox/\"",
+      "color": {
+        "a": 1,
+        "rgb": 16096779
+      }
+    },
+    {
+      "query": "path:\"personal/\"",
+      "color": {
+        "a": 1,
+        "rgb": 15695274
+      }
+    },
+    {
+      "query": "path:\"work/\"",
+      "color": {
+        "a": 1,
+        "rgb": 6333946
+      }
+    },
+    {
+      "query": "path:\"resources/\"",
+      "color": {
+        "a": 1,
+        "rgb": 3462041
+      }
+    },
+    {
+      "query": "path:\"planner/\"",
+      "color": {
+        "a": 1,
+        "rgb": 10980346
+      }
+    },
+    {
+      "query": "path:\"system/\"",
+      "color": {
+        "a": 1,
+        "rgb": 9741240
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 0.6,
+  "collapse-forces": true,
+  "centerStrength": 0.300682926829268,
+  "repelStrength": 10,
+  "linkStrength": 0.800487804878049,
+  "linkDistance": 30,
+  "scale": 0.09392927902846931,
+  "close": true
+}

@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "README.md",
+      "title": "Overview"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "inbox/INBOX.md",
+      "title": "Inbox"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "personal/PERSONAL.md",
+      "title": "Personal"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "work/WORK.md",
+      "title": "Work"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "resources/RESOURCES.md",
+      "title": "Resources"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "planner/PLANNER.md",
+      "title": "Planner"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "system/SYSTEM.md",
+      "title": "System"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "planner/KANBAN.md",
+      "title": "Kanban"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "planner/tasks/TASKS.md",
+      "title": "Tasks"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "planner/journal/JOURNAL.md",
+      "title": "Journal"
+    },
+    {
+      "type": "file",
+      "ctime": 0,
+      "path": "system/tags/TAGS.md",
+      "title": "Tags"
+    }
+  ]
+}

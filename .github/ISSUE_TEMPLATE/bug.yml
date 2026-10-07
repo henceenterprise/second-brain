@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible problem using fictional data.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include private notes, secrets, personal paths, or unredacted screenshots. Use Security for confidential vulnerability reports."
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a minimal fictional example.
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Environment and versions
+      description: Include OS, Obsidian, template version, and any plugin versions you changed.
+    validations:
+      required: true

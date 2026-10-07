@@ -1,0 +1,9 @@
+{
+  "id": "second-brain-helpers",
+  "name": "Second Brain Helpers",
+  "version": "1.0.0",
+  "minAppVersion": "1.13.0",
+  "description": "Optional, independent conveniences for collection links, folder icons, and recoverable task deletion; with per-function controls and excluded folders.",
+  "author": "Hence",
+  "isDesktopOnly": true
+}

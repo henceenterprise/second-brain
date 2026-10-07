@@ -1,0 +1,13 @@
+{
+  "inherited": {},
+  "generatedIndices": {},
+  "enabled": {
+    "context": true,
+    "indexes": true,
+    "attachments": true,
+    "icons": true,
+    "kanban": true,
+    "inbox": true
+  },
+  "excludedFolders": []
+}

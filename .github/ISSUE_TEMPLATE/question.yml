@@ -1,0 +1,14 @@
+name: Question or suggestion
+description: Ask about a workflow or suggest an improvement.
+title: "[Question or suggestion]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Use fictional examples. Do not include personal notes, credentials, or private attachments."
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or proposed improvement
+      description: Explain the workflow and what would help.
+    validations:
+      required: true

@@ -1,0 +1,18 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "type": "text",
+    "created": "date",
+    "date": "date",
+    "week": "text",
+    "due": "date",
+    "priority": "text",
+    "start_date": "date",
+    "end_date": "date",
+    "starts_at": "datetime",
+    "ends_at": "datetime",
+    "collection": "text"
+  }
+}
