@@ -1,17 +1,24 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Inventory
 
-- Create a NOTE for an item worth tracking.
-- Record what it is, where it is kept, and relevant manuals or warranty details.
-- Link supporting documents instead of copying them.
+[Parent: Home](../HOME.md)
+
+Items worth tracking: location, manuals and warranty details.
+
+## Use
+
+- Create a NOTE for an item; record what it is and where it is kept.
+- Link manuals, warranties and the original receipt.
+- Keep one original file, even when other notes use it.
 
 > [!example]- Example
-> An appliance note can link its manual and the original invoice.
-
-[Parent: Home](../HOME.md)
+> An appliance note links its manual and invoice, with the warranty end date when known.
 
 ## Files and collections
 

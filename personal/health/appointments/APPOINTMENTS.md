@@ -1,18 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Appointments
 
-- Create a NOTE for a visit.
-- Record its date, purpose, questions, and useful follow-up.
-- Track concrete actions in Planner.
-
-- Add `starts_at` and optional `ends_at` through native properties for timed appointments.
-- Keep arrangements in this note and related actions in Planner.
-- Upcoming and ongoing records appear in the Planner event list.
-
 [Parent: Health](../HEALTH.md)
+
+Preparation, arrangements and follow-up for health visits.
+
+## Use
+
+- Create a NOTE for each visit: purpose, questions and useful outcomes.
+- For a timed visit, add `starts_at` and optional `ends_at` in native properties.
+- Upcoming and ongoing visits appear in Planner; keep follow-up actions there.
 
 ## Files and collections
 

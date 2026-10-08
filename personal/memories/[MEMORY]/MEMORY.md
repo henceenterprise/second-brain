@@ -1,17 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Memory placeholder
 
-- Rename [MEMORY] and this index in Obsidian.
-- Keep the context of one experience, with notes, photos, or other keepsakes.
-- Link attachments from the note that explains them.
-
-> [!example]- Example
-> A fictional family gathering can have a short account and linked photographs.
-
 [Parent: Memories](../MEMORIES.md)
+
+A starting collection for one experience.
+
+## Use
+
+- Rename `[MEMORY]` and this index in Obsidian.
+- Replace this guidance with the experience, known date and context.
+- Link photographs and keepsakes from the note that explains them.
 
 ## Files and collections
 

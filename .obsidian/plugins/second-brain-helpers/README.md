@@ -33,7 +33,7 @@ No integration can promise compatibility with every future plugin. Use exclusion
 
 - Visible folders receive a short named index with `type: index`, a Parent link and a Base for direct files and immediate subcollections.
 - Root collections link to the vault README.
-- The root LICENSE is repository/legal material and stays outside automatic attachment context.
+- The [root license](../../../LICENSE.md) preserves the MIT terms. The vault overview links it; Helpers supplies its minimum Collection context.
 - Hidden folders and the four source layouts in `system/templates/layouts` are excluded.
 
 - Markdown notes receive one Collection link to the local index or the nearest index above.

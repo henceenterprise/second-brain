@@ -1,25 +1,25 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Invoices
 
-Keep purchase invoices, receipts, and the context needed to find or understand them. The starter includes `[YYYY]/[MM]/` as a generic example of filing by year and month.
-
-## Use the placeholders
-
-1. Rename `[YYYY]/` and its index note to the four-digit year you need, using Obsidian.
-2. Rename `[MM]/` and its index note to a two-digit month, such as `01`.
-3. Create additional year or month folders only when they have records to hold.
-4. Save the invoice in the relevant month and link it from the purchase, budget, or project note.
-
-If you have few invoices, keeping them directly here can be simpler. The date folders demonstrate a pattern, not a compulsory hierarchy.
-
-**Illustrative filename:** `YYYY-MM-DD-short-description.pdf`. Use the original document date when known and preserve the original document when needed.
-
-The automatic view includes attachments. Listing a receipt helps find it; a link from a note explains what the receipt belongs to.
-
 [Parent: Finance](../FINANCE.md)
+
+Purchase invoices and receipts, with the context needed to find them.
+
+## Use
+
+- Keep a small collection here, or organize it by year and month.
+- In Obsidian, rename `[YYYY]` and its index to a four-digit year; rename `[MM]` and its index to a two-digit month.
+- Create additional date folders only when they have records to hold.
+- Link each original from the purchase, budget or project that explains it.
+
+> [!example]- Example
+> Filename pattern: `YYYY-MM-DD-short-description.pdf`. Use the known document date; do not invent a date.
 
 ## Files and collections
 

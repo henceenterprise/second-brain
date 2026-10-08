@@ -1,19 +1,26 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Service placeholder
 
-- Rename [SERVICE] and this index in Obsidian.
-- Replace this guidance with the service purpose and context.
-- Use NOTE for additional information; track concrete actions in Planner.
+[Parent: Services](../SERVICES.md)
+
+A starting collection for one ongoing service.
+
+## Use
+
+- Rename `[SERVICE]` and this index in Obsidian.
+- Replace this guidance with purpose, boundaries and operating context.
+- Use NOTE for supporting information; keep concrete actions in Planner.
 
 ## Collections
 
-- [Procedures](procedures/PROCEDURES.md) — Instructions specific to this service.
-- [Agreements](agreements/AGREEMENTS.md) — Scope, commitments, and arrangements.
-
-[Parent: Services](../SERVICES.md)
+- [Procedures](procedures/PROCEDURES.md)
+- [Agreements](agreements/AGREEMENTS.md)
 
 ## Files and collections
 

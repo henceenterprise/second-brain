@@ -1,17 +1,24 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-resources
 ---
 
 # Subject placeholder
 
-- Rename [SUBJECT] and this index in Obsidian.
-- Replace the guidance with your learning question or goal.
-- Create study notes using NOTE and preserve source titles, links, and relevant sections.
+[Parent: Studies](../STUDIES.md)
+
+A starting collection for learning about one subject.
+
+## Use
+
+- Rename `[SUBJECT]` and this index in Obsidian.
+- Replace this guidance with your learning question or goal.
+- Create study notes with NOTE, preserving sources and open questions.
 
 > [!example]- Example
-> A language study can contain vocabulary notes, practice observations, and links to original materials.
-
-[Parent: Studies](../STUDIES.md)
+> A language study contains vocabulary explanations, practice observations and original materials.
 
 ## Files and collections
 

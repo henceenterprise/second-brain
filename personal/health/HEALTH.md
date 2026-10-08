@@ -1,17 +1,26 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Health
 
-Keep your health information together. Record dates, sources, and relevant context.
+[Parent: Personal](../PERSONAL.md)
+
+Health information with known dates, sources and context.
+
+## Use
+
+Use NOTE for each visit or record; link its original material.
 
 ## Collections
 
-- [Appointments](appointments/APPOINTMENTS.md) — Visits, preparation, and follow-up.
-- [Records](records/RECORDS.md) — Reports, results, and treatment records.
-
-[Parent: Personal](../PERSONAL.md)
+| Collection | Keep here |
+| --- | --- |
+| [Appointments](appointments/APPOINTMENTS.md) | Preparation, arrangements and follow-up. |
+| [Records](records/RECORDS.md) | Reports, results and treatment records. |
 
 ## Files and collections
 

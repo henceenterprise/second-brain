@@ -1,19 +1,26 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-resources
 ---
 
 # Studies
 
-- Start with a question.
-- Use NOTE to record sources, findings in your own words, and open questions.
-- Distinguish source claims from your interpretation.
-- Reusable conclusions can become References.
+[Parent: Resources](../RESOURCES.md)
+
+Learning and investigation, starting with a question.
+
+## Use
+
+- Create a NOTE stating the question or learning goal.
+- Keep source titles, links and relevant sections.
+- Record findings in your own words; distinguish source claims from your interpretation.
+- Keep uncertainties visible. Stable reusable conclusions can become References.
 
 ## Collections
 
-- [Subject placeholder](%5BSUBJECT%5D/SUBJECT.md) — Learning and research about one subject.
-
-[Parent: Resources](../RESOURCES.md)
+- [Subject placeholder](%5BSUBJECT%5D/SUBJECT.md)
 
 ## Files and collections
 

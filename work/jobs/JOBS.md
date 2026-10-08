@@ -1,27 +1,28 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Jobs
 
-Keep information about a professional role, opportunity, or application. Use this collection when it is relevant to your work.
-
-## Create a useful note
-
-- Record the role or opportunity, its source, important dates when known, related documents, and next steps.
-- Add an organization or role folder only when several notes need it.
-
-> [!example]- Example
-> An application note can link its source posting, the document version used, and a follow-up task. An existing-role note can instead record responsibilities and procedures.
-
-Keep general development in Career, delivery outcomes in Projects, and action status on Kanban.
-
 [Parent: Work](../WORK.md)
 
-## Item placeholder
+Context for a role, opportunity or application.
 
-- The [job placeholder](%5BJOB%5D/JOB.md) demonstrates a folder for one role or opportunity.
-- Rename it for your own item, or duplicate it when another item needs its own collection.
+## Use
+
+- Create a NOTE with role, source, known dates, documents and next steps.
+- Use a folder when several records belong together.
+- Keep general development in Career, delivery outcomes in Projects and actions in Planner.
+
+> [!example]- Example
+> An application note links its source posting, the document version used and a follow-up action.
+
+## Collections
+
+- [job placeholder](%5BJOB%5D/JOB.md)
 
 ## Files and collections
 

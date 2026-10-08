@@ -1,25 +1,24 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Interests
 
-Keep notes about your own experience of hobbies and subjects you follow: practice observations, reading reflections, or ideas you want to revisit.
+[Parent: Personal](../PERSONAL.md)
 
-## Experience or reusable knowledge?
+Your experience of hobbies and subjects you follow.
 
-- Your reflection belongs here.
-- An explanation useful across situations belongs in Resources.
-- Link the two when it helps.
+## Use
 
-Start with one note per interest or topic. Add a topic folder only when several notes or files are easier to browse together.
+- Create a NOTE for reflections, practice observations or ideas to revisit.
+- Keep reusable explanations in Resources; link them when useful.
+- Use the Journal for dated practice logs. Add a folder when several related notes need it.
 
 > [!example]- Example
-> A language-practice note can record your current focus and experience. General vocabulary or learning methods can be kept as reusable references.
-
-Use the note template if structure helps. A dated practice log can go in the JOURNAL and link to the interest.
-
-[Parent: Personal](../PERSONAL.md)
+> A language-practice note records your experience. General vocabulary or learning methods remain reusable resources.
 
 ## Files and collections
 

@@ -1,14 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Certificates
 
-- Create a NOTE for a certificate.
-- Record its subject, issuer, issue date, and validity when relevant.
-- Attach and link the original; link its use in other notes.
-
 [Parent: Documents](../DOCUMENTS.md)
+
+Qualifications, registrations and certificates you need to keep.
+
+## Use
+
+- Create a NOTE for each certificate: subject, issuer and issue date.
+- Record validity or renewal dates when relevant.
+- Attach one original and link it where it is needed.
 
 ## Files and collections
 

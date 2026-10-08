@@ -31,9 +31,21 @@ A downloaded vault becomes your personal copy. **Do not extract a later release 
 - Reopen it and verify notes, collection lists, templates, Tasks, icons, drawings, and recovery using fictional records.
 - If the check fails, close the vault and restore the full backup rather than combining incompatible code and settings.
 
-## v1 baseline
+## v1.0.0 → v1.1.0 presentation
 
-- This is the first release; no upgrade from an earlier public release is provided.
+1. Copy the new banner/map assets from `system/assets/` and the optional CSS files into `.obsidian/snippets/`. Update image links to their new paths.
+2. Install or update Style Settings through Obsidian if you want the controls. Enable **second-brain-presentation** for guidance and **hence-interface** for the native app appearance under Appearance → CSS snippets. Each layer can be disabled independently.
+3. Compare README and index guidance. Keep your content and properties; add presentation classes only to guidance you want styled.
+4. Compare the four layouts' instructional text; their logic and properties need no migration.
+5. For theme-matching drawings, review Excalidraw's theme-match settings. Keep your other settings.
+
+Do not replace icons, Graph, workspaces or plugin configuration wholesale. Helpers and existing plugin code need no update for this presentation.
+
+**Style Settings → Second Brain:** Interface and Documents group the optional controls. Light/dark colors use individual native pickers with visible defaults. Keep your personal Style Settings values. Folder icon and indentation-guide accents use the area palette without changing specific icons or Graph colors. Disable this interface snippet before choosing another community theme; arbitrary theme/plugin combinations have not been tested.
+
+## Ongoing maintenance
+
+- The v1.0.0 release remains available.
 - Compatibility changes and any migrations must be explained in each later release.
 - There is no automatic template updater or guaranteed release schedule.
 

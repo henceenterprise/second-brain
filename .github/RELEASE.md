@@ -1,49 +1,58 @@
-# Second Brain v1.0.0
+![Second Brain by Hence — light mode](../system/assets/second-brain-cover.png#gh-light-mode-only)
+![Second Brain by Hence — dark mode](../system/assets/second-brain-cover-dark.png#gh-dark-mode-only)
 
-<img src="../system/hence-signature.svg" alt="Hence" width="220">
+# Your life, thoughtfully organized.
 
-Created by **Hence**.
+**Second Brain v1.1.0.** A personal Obsidian vault for life records, reusable knowledge, projects and everyday planning.
 
-**First stable release.**
+**[Download](https://github.com/henceenterprise/second-brain/releases/latest)** · **[Quick start](../README.md#quick-start)** · **[Support](https://github.com/henceenterprise/second-brain/issues)**
 
-A ready-to-use Obsidian starter for personal information, learning, projects, and planning. No Git account or AI service is required for personal use.
+## A clearer place to start
 
-## Included
+- Transparent Hence identity for light and dark mode.
+- A six-area map, concise guidance in the collection indices and clearer layout instructions.
+- Optional editorial styling and presentation controls in **Style Settings → Second Brain**, including separate area colors by theme.
+- A real clean-vault overview, matching social preview and editable SVGs.
 
-Six organized areas, four note layouts, 24 optional topic tags, collection lists, daily/weekly journals, a Kanban board, task lists, drawings, and a colored graph.
+![Clean Windows vault: folders, Planner, Calendar, Kanban and Graph.](../system/assets/second-brain-overview.png)
 
-- Calendar, Iconize, Kanban, Tasks, Templater, and Excalidraw are bundled with their licenses.
-- Second Brain Helpers provides minimum collection links, folder indices and icon inheritance, and conservative deletion of exclusive task notes with session Undo.
+## Packages
 
-## Download and start
+| Asset | Use |
+| --- | --- |
+| **Second-Brain-v1.1.0.zip** | Extract the vault, including hidden `.obsidian` settings. |
+| **Second-Brain-v1.1.0-sources.zip** | Corresponding sources, licenses, provenance and build guidance. |
+| **SHA256SUMS.txt** | Compare package checksums before use. |
 
-Release assets:
+Download the vault ZIP below. The sources ZIP contains redistribution and maintenance material. Published v1.0.0 assets remain available.
 
-- **Second-Brain-v1.0.0.zip** — extract the complete folder, including `.obsidian`, and open it as a vault.
-- **Second-Brain-v1.0.0-sources.zip** — corresponding source material, licenses, provenance, and build guidance for the bundled plugins.
-- **SHA256SUMS.txt** — package checksums.
+## Make it yours
 
-- Follow the [vault README](../README.md) to review/enable plugins and authorize Templater locally.
-- The source package is for inspection and maintenance; it is not required to use the vault.
+The optional interface layer adds black/white surfaces and a green accent. In **Style Settings**, adjust each mode's colors, advanced sizes, spacing and corners, or reset them. One **Second Brain** panel groups **Interface** and **Documents**; use native Appearance for scheme, theme and font choices. Disable the interface CSS snippet before using another community theme.
 
-## Compatibility and limits
+## What stays familiar
 
-- Windows desktop with Obsidian 1.14.4 is the validation environment; minimum declared Obsidian version is 1.13.0. macOS/Linux are unvalidated; mobile is outside Helpers v1 support.
-- Helpers is bundled code, not a reviewed Obsidian community catalogue entry.
+Six areas · four layouts · 24 optional topic tags · Bases lists · ISO journals · Kanban · Tasks · drawings · colored Graph.
 
-- Update Obsidian and community plugins normally; supplied versions are the tested baseline.
-- Helpers checks required interfaces and board structure, not version numbers. Incompatible interfaces pause only the affected automation.
-- Helpers is optional: six independent switches, folder exclusions, and notices for failed automation. Original plugin operations are preserved.
-- Technical tool paths stay fixed in v1.
-- A card's state does not synchronize its checkboxes.
-- Undo is session-only; shared, ambiguous, or incompletely checked notes are kept.
+- Helpers and the six existing community plugins keep their code and versions.
+- Style Settings **1.0.9** is added with its GPL-3.0 license and corresponding source material.
+- Query code, layout logic, properties, tool destinations, specific icons and Graph area colors are preserved.
+- Excalidraw drawings and previews follow Obsidian's light/dark mode.
 
-This release does not include sync, backup automation, AI, mobile Helpers support, or a complete security audit of third-party code.
+## Compatibility and care
 
-## License, support, and updates
+| Platform | Status |
+| --- | --- |
+| Windows desktop / Obsidian 1.14.4 | Core and presentation validated. |
+| macOS / Linux | Not validated. |
+| Mobile | Outside Helpers v1 support. |
 
-Template and Helpers: [MIT / Hence](../LICENSE). Plugins keep [their own licenses](THIRD-PARTY-NOTICES.md).
+Minimum declared Obsidian version: 1.13.0; not every version tested. Update Obsidian and community plugins normally. Helpers checks required interfaces rather than exact versions; a failure pauses only the affected convenience.
 
-[Issues](https://github.com/henceenterprise/second-brain/issues) for bugs/questions/suggestions; [private security guidance](SECURITY.md) for vulnerabilities. Maintenance has no guaranteed schedule or response time. Use [selective updates](UPDATING.md), keeping personal notes and settings.
+**Back up before updating.** Follow [selective updates](UPDATING.md) to preserve personal notes and choices. Canceling a card does not cancel its checkboxes. Session Undo and conservative task deletion are explained in the vault.
 
-[Maintenance index](MAINTENANCE.md)
+No sync, automatic backup or AI is included. Helpers is optional bundled code, separate from the community catalogue. Maintenance has no guaranteed schedule.
+
+Created by **Hence** · [MIT](../LICENSE.md) for template and Helpers · [Plugin licenses and sources](THIRD-PARTY-NOTICES.md).
+
+[Support](https://github.com/henceenterprise/second-brain/issues) · [Private security guidance](SECURITY.md) · [Maintenance](MAINTENANCE.md).

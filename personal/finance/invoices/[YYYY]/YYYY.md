@@ -1,20 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Year placeholder
 
-This is an example year folder containing guidance only. It has no invoices or real dates.
-
-## Make it your own
-
-Rename the folder and its index note to the four-digit year you need. Use Obsidian so that configured note-link updates can run.
-
-Create month folders only for months with records. The [month placeholder](%5BMM%5D/MM.md) demonstrates the next level.
-
-The automatic view uses the location of its own index instead of a fixed path. Its filter therefore follows the index when moved or renamed.
-
 [Parent: Invoices](../INVOICES.md)
+
+A starting folder for one year of invoices. No real records are included.
+
+## Use
+
+- Rename this folder and its index in Obsidian to the year you need.
+- Create month folders only when they contain records.
+- The [month placeholder](%5BMM%5D/MM.md) demonstrates the next level.
 
 ## Files and collections
 

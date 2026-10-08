@@ -1,23 +1,25 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Career
 
-Keep information about professional development across roles: skills, experience, qualifications, goals, and professional documents.
+[Parent: Work](../WORK.md)
 
-## Start simply
+Professional development across roles: skills, experience and goals.
 
-Create one note for a topic or document. Link supporting files from the note explaining their purpose and keep the current version easy to find.
+## Use
+
+- Create a NOTE for a skill review, qualification or professional document.
+- Link supporting originals and keep the current version easy to find.
+- Keep role-specific material in Jobs and concrete actions in Planner.
+- Review documents before sharing. Preserve earlier versions locally only when useful.
 
 > [!example]- Example
-> A skills review, a professional profile, or learning goals. A resume can live here if you use one; a dedicated resume hierarchy is not required.
-
-Information about a particular employer or application belongs in Jobs. Concrete development actions belong on Kanban.
-
-Review a document before sharing it. Use local history only for earlier versions worth retaining.
-
-[Parent: Work](../WORK.md)
+> A fictional skills review records strengths, learning goals and supporting evidence.
 
 ## Files and collections
 

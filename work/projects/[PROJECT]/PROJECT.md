@@ -1,19 +1,26 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Project placeholder
 
-- Rename [PROJECT] and this index in Obsidian.
-- Replace this guidance with the project purpose and context.
-- Use NOTE for additional information; track concrete actions in Planner.
+[Parent: Projects](../PROJECTS.md)
+
+A starting collection for one defined outcome.
+
+## Use
+
+- Rename `[PROJECT]` and this index in Obsidian.
+- Replace this guidance with outcome, scope and completion evidence.
+- Use NOTE for detail; link the work's next actions in Planner.
 
 ## Collections
 
-- [Decisions](decisions/DECISIONS.md) — Choices, reasons, and implications.
-- [Deliverables](deliverables/DELIVERABLES.md) — Outputs and completion evidence.
-
-[Parent: Projects](../PROJECTS.md)
+- [Decisions](decisions/DECISIONS.md)
+- [Deliverables](deliverables/DELIVERABLES.md)
 
 ## Files and collections
 

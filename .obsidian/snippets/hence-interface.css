@@ -1,0 +1,88 @@
+/* Optional native-theme interface. MIT — Hence. Native variables and six root icon accents. */
+
+/* Defaults work without Style Settings. Disabling the snippet removes this layer. */
+@media screen {
+  body.theme-light:not(.hence-interface-off) {
+    --hence-background: var(--hence-ui-background-light, #ffffff);
+    --hence-surface: var(--hence-ui-surface-light, #f5f5f5);
+    --hence-text: var(--hence-ui-text-light, #000000);
+    --hence-muted: var(--hence-ui-muted-light, #595959);
+    --hence-border: var(--hence-ui-border-light, #d1d1d1);
+    --hence-accent: var(--hence-ui-accent-light, #2e7633);
+    --hence-on-accent: var(--hence-ui-on-accent-light, #ffffff);
+  }
+  body.theme-dark:not(.hence-interface-off) {
+    --hence-background: var(--hence-ui-background-dark, #000000);
+    --hence-surface: var(--hence-ui-surface-dark, #131313);
+    --hence-text: var(--hence-ui-text-dark, #ffffff);
+    --hence-muted: var(--hence-ui-muted-dark, #b3b3b3);
+    --hence-border: var(--hence-ui-border-dark, #333333);
+    --hence-accent: var(--hence-ui-accent-dark, #53b559);
+    --hence-on-accent: var(--hence-ui-on-accent-dark, #000000);
+  }
+  body:not(.hence-interface-off) {
+    --background-primary: var(--hence-background);
+    --background-primary-alt: var(--hence-surface);
+    --background-secondary: var(--hence-surface);
+    --background-secondary-alt: var(--hence-surface);
+    --background-modifier-form-field: var(--hence-background);
+    --background-modifier-hover: color-mix(in srgb, var(--hence-text) 8%, transparent);
+    --background-modifier-active-hover: color-mix(in srgb, var(--hence-accent) 14%, transparent);
+    --background-modifier-border: var(--hence-border);
+    --background-modifier-border-hover: var(--hence-muted);
+    --background-modifier-border-focus: var(--hence-accent);
+    --text-normal: var(--hence-text);
+    --text-muted: var(--hence-muted);
+    --text-faint: var(--hence-muted);
+    --text-accent: var(--hence-accent);
+    --text-accent-hover: var(--hence-accent);
+    --text-on-accent: var(--hence-on-accent);
+    --text-on-accent-inverted: var(--hence-on-accent);
+    --text-selection: color-mix(in srgb, var(--hence-accent) 25%, transparent);
+    --color-accent: var(--hence-accent);
+    --color-accent-1: var(--hence-accent);
+    --color-accent-2: var(--hence-accent);
+    --interactive-normal: var(--hence-surface);
+    --interactive-hover: color-mix(in srgb, var(--hence-text) 8%, var(--hence-surface));
+    --interactive-accent: var(--hence-accent);
+    --interactive-accent-hover: var(--hence-accent);
+    --icon-color-active: var(--hence-accent);
+    --icon-color-focused: var(--hence-accent);
+    --nav-item-color-active: var(--hence-accent);
+    --nav-item-background-active: color-mix(in srgb, var(--hence-accent) 10%, transparent);
+    --font-ui-smaller: calc((var(--hence-ui-size, 13) - 1) * 1px);
+    --font-ui-small: calc(var(--hence-ui-size, 13) * 1px);
+    --font-ui-medium: calc((var(--hence-ui-size, 13) + 2) * 1px);
+    --font-ui-large: calc((var(--hence-ui-size, 13) + 7) * 1px);
+    --code-size: calc(var(--hence-code-size, 14) * 1px);
+    --radius-s: calc(var(--hence-radius, 8) * 1px);
+    --radius-m: calc(var(--hence-radius, 8) * 1px);
+    --radius-l: calc(var(--hence-radius, 8) * 2px);
+    --radius-xl: calc(var(--hence-radius, 8) * 3px);
+  }
+}
+
+/* Area color is scoped to each root folder tree. Icons retain their chosen shapes. */
+@media screen {
+body:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="inbox"]) { --hence-folder-color: var(--second-brain-inbox-color,#f59e0b); --nav-indentation-guide-color: var(--hence-folder-color); }
+body.theme-light:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="inbox"]) { --hence-folder-color: color-mix(in srgb, var(--second-brain-inbox-color,#f59e0b) 65%, var(--text-normal)); }
+body:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="personal"]) { --hence-folder-color: var(--second-brain-personal-color,#ef7daa); --nav-indentation-guide-color: var(--hence-folder-color); }
+body.theme-light:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="personal"]) { --hence-folder-color: color-mix(in srgb, var(--second-brain-personal-color,#ef7daa) 65%, var(--text-normal)); }
+body:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="work"]) { --hence-folder-color: var(--second-brain-work-color,#60a5fa); --nav-indentation-guide-color: var(--hence-folder-color); }
+body.theme-light:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="work"]) { --hence-folder-color: color-mix(in srgb, var(--second-brain-work-color,#60a5fa) 65%, var(--text-normal)); }
+body:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="resources"]) { --hence-folder-color: var(--second-brain-resources-color,#34d399); --nav-indentation-guide-color: var(--hence-folder-color); }
+body.theme-light:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="resources"]) { --hence-folder-color: color-mix(in srgb, var(--second-brain-resources-color,#34d399) 65%, var(--text-normal)); }
+body:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="planner"]) { --hence-folder-color: var(--second-brain-planner-color,#a78bfa); --nav-indentation-guide-color: var(--hence-folder-color); }
+body.theme-light:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="planner"]) { --hence-folder-color: color-mix(in srgb, var(--second-brain-planner-color,#a78bfa) 65%, var(--text-normal)); }
+body:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="system"]) { --hence-folder-color: var(--second-brain-system-color,#94a3b8); --nav-indentation-guide-color: var(--hence-folder-color); }
+body.theme-light:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path="system"]) { --hence-folder-color: color-mix(in srgb, var(--second-brain-system-color,#94a3b8) 65%, var(--text-normal)); }
+body:not(.hence-interface-off):not(.hence-root-icons-off) .nav-folder:has(> .nav-folder-title[data-path]:is([data-path="inbox"],[data-path="personal"],[data-path="work"],[data-path="resources"],[data-path="planner"],[data-path="system"])) .nav-folder-title > .iconize-icon { color: var(--hence-folder-color); }
+}
+
+/* Flat native Style Settings headings, scoped to the optional interface layer. */
+body:not(.hence-interface-off) .style-settings-heading.setting-item { border-radius: 0; background: transparent; box-shadow: none; }
+
+/* Native interface metrics; the document preset is shared, each layer stays optional. */
+body:not(.hence-interface-off) { --hence-row-padding: 4px; --hence-control-height: 32px; --nav-item-padding: calc(var(--hence-row-padding) + var(--hence-extra-padding,0) * 1px) 8px calc(var(--hence-row-padding) + var(--hence-extra-padding,0) * 1px) 16px; --input-height: calc(var(--hence-control-height) + var(--hence-extra-padding,0) * 2px); }
+body.second-brain-compact:not(.hence-interface-off) { --hence-row-padding: 0px; --hence-control-height: 28px; }
+body.second-brain-spacious:not(.hence-interface-off) { --hence-row-padding: 8px; --hence-control-height: 40px; }

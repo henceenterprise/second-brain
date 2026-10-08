@@ -1,30 +1,25 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-resources
 ---
 
 # Bookmarks
 
-Keep pointers to outside material with context: pages, articles, books, courses, videos, or documents.
-
-## Save a useful pointer
-
-- Record its title, URL or publication location, creator when known, and one sentence explaining why it is useful.
-- Include a page or section if you need a particular detail.
-
-**Illustrative format:**
-
-~~~text
-Title: A resource about a subject you are studying
-Source: Add the original URL or publication details
-Why keep it: Explain what it helps you understand or do
-Related note: Link the study, reference, or project that uses it
-~~~
-
-A bookmark is a pointer. Put analysis in Studies and reusable explanations in References. Check outside links before relying on them, because content can change.
-
-For Obsidian sidebar favorites, use the separate core Bookmarks feature. This collection holds bookmark notes explaining their purpose.
-
 [Parent: Resources](../RESOURCES.md)
+
+Pointers to outside material, with a reason to keep them.
+
+## Use
+
+- Use NOTE to record the title, original URL or publication, and creator when known.
+- State why it is useful; include a page or section for a specific detail.
+- Keep analysis in Studies and reusable explanations in References.
+- Check outside links before relying on them. Sidebar favorites use the separate core Bookmarks tool.
+
+> [!example]- Example
+> **Title · Source · Why keep it · Where it is used.** Replace each prompt with real information.
 
 ## Files and collections
 

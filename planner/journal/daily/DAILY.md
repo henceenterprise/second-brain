@@ -1,23 +1,22 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-planner
 ---
 
 # Daily notes
 
-Daily notes are configured here with `YYYY-MM-DD.md` filenames and the daily template.
-
-## Create or open a day
-
-Use **Daily notes: Open today's daily note**, or select a day in Calendar. Open an existing dated note instead of making a duplicate.
-
-Record a useful focus, events, observations, and links. Replace prompts with your own text and remove sections that serve no purpose that day.
-
-Link tasks or projects instead of copying their full contents. Put lasting explanations in their own collections.
-
-> [!example]- Example
-> A brief entry can record that you reviewed an option and link the project note containing the decision.
-
 [Parent: Journal](../JOURNAL.md)
+
+A dated record of focus, observations and reflection.
+
+## Use
+
+- Open a day in Calendar, or use **Daily notes: Open today's daily note**.
+- Calendar applies DAILY; filenames use `YYYY-MM-DD.md`. Open an existing entry instead of duplicating it.
+- Keep useful events and observations; link actions and lasting explanations from their originals.
+- Remove sections that do not help that day.
 
 ## Files and collections
 

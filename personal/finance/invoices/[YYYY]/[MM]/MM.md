@@ -1,21 +1,22 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Month placeholder
 
-This is an example month folder inside the year placeholder.
-
-## File an invoice
-
-- Rename the folder and index note to a two-digit month, such as `01` or `12`.
-- Save invoices or receipt notes here and link them from the purchase, budget, or project note explaining their context.
-
-Use a known invoice date. If a date is uncertain, record that uncertainty rather than inventing one.
-
-The view includes PDFs, images, and other files saved directly here. Formats Obsidian cannot display may need another application.
-
 [Parent: Yyyy](../YYYY.md)
+
+A starting folder for one month within its year.
+
+## Use
+
+- Rename this folder and its index in Obsidian to a two-digit month, such as `01`.
+- Save receipt notes and original invoices here.
+- Link records from the note explaining the purchase or activity.
+- Use known dates; record uncertainty when a date is unclear.
 
 ## Files and collections
 

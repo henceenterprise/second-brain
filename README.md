@@ -1,70 +1,75 @@
-# Second Brain Template
+![Second Brain by Hence — light mode](system/assets/second-brain-cover.png#gh-light-mode-only)
+![Second Brain by Hence — dark mode](system/assets/second-brain-cover-dark.png#gh-dark-mode-only)
+# Your life, thoughtfully organized.
 
-<img src="system/hence-signature.svg" alt="Hence" width="220">
+A personal **Obsidian vault** for life records, reusable knowledge, projects and everyday plans.
 
-Created by **Hence**.
+**[Download the vault](https://github.com/henceenterprise/second-brain/releases/latest)** · **[Quick start](#quick-start)** · **[Support](https://github.com/henceenterprise/second-brain/issues)**
 
-**Capture → organize → act → review.**
+**Six areas · Four layouts · Your own local files.** No account, Git or AI needed.
 
-A personal Obsidian vault for life records, learning, projects, and planning. Blank layouts and fictional examples are ready to adapt.
+Download the **vault ZIP** and extract the whole folder, including `.obsidian`. The separate **sources ZIP** is for inspection and maintenance.
 
-## Start here
+![A clean Windows vault: folders, Planner, Calendar, Kanban and Graph, with no personal content.](system/assets/second-brain-overview.png)
 
-**Get the vault:** download **Second-Brain-v1.0.0.zip** from [Releases](https://github.com/henceenterprise/second-brain/releases/latest). The separate sources ZIP is for inspection and maintenance.
+## Quick-start
 
-1. **Open:** extract everything, including `.obsidian`. In [Obsidian](https://obsidian.md/download), choose **Open folder as vault**.
-2. **Review plugins:** in **Settings → Community plugins**, review the code and disable Restricted mode. Enable Calendar, Iconize, Kanban, Tasks, Templater, Excalidraw, and Second Brain Helpers.
-3. **Allow templates:** in **Settings → Templater**, enable **Trigger Templater on new file creation**; accept the confirmation. Keep matching mode **None**. Authorize each new device or vault.
-4. **Create:** name a note in Inbox. Run **Templater: Open insert template modal → NOTE**. Choose a collection to move it; Escape keeps it in place.
+1. **Open.** In [Obsidian](https://obsidian.md/download), choose **Open folder as vault** and select the extracted folder.
+2. **Enable.** In **Settings → Community plugins**, review the bundled code, disable Restricted mode and enable the tools you want: seven community plugins plus optional Helpers.
+3. **Authorize templates.** In **Settings → Templater**, enable **Trigger Templater on new file creation** and accept the confirmation. Keep matching mode **None**. Repeat on each new device or vault.
+4. **Capture.** Name a note in Inbox. Run **Templater: Open insert template modal → NOTE** and choose a collection. Escape keeps the note in place.
 
-No account, Git, or AI needed. Templater startup scripts and system commands are disabled. [About community plugins](https://obsidian.md/help/community-plugins).
+**Capture → file → act → review.** Start with one useful note; expand when your material needs it.
 
-**Updates are yours:** update Obsidian and community plugins normally. Helpers checks compatible interfaces; it does not demand exact versions.
+## A home for what matters
 
-**Helpers is optional:** in its settings, switch conveniences off independently or exclude folders used by other plugins. A failed automation pauses with a notice; the other tools remain available.
-
-| Compatibility | Status |
-| --- | --- |
-| Windows desktop · Obsidian 1.14.4 | Validated |
-| Obsidian 1.13.0+ | Declared minimum; not every version tested |
-| macOS / Linux | Not validated |
-| Mobile | Outside Helpers v1 support |
-
-## Choose a home
+![Six areas — light mode](system/assets/second-brain-map.png#gh-light-mode-only)
+![Six areas — dark mode](system/assets/second-brain-map-dark.png#gh-dark-mode-only)
 
 | Area | Keep here |
 | --- | --- |
 | [Inbox](inbox/INBOX.md) | Captures awaiting a decision. |
-| [Personal](personal/PERSONAL.md) | Life records, health, money, home, people, and travel. |
-| [Work](work/WORK.md) | Career, jobs, services, and projects for any part of life. |
-| [Resources](resources/RESOURCES.md) | Studies, reusable knowledge, source bookmarks, and drawings. |
-| [Planner](planner/PLANNER.md) | Workflow, task actions, and daily or weekly reviews. |
-| [System](system/SYSTEM.md) | Four layouts, properties, and optional topic tags. |
+| [Personal](personal/PERSONAL.md) | Health, money, home, relationships and life records. |
+| [Work](work/WORK.md) | Personal or professional projects, jobs and services. |
+| [Resources](resources/RESOURCES.md) | Studies, reusable explanations, sources and drawings. |
+| [Planner](planner/PLANNER.md) | Actions, events and daily or weekly reviews. |
+| [System](system/SYSTEM.md) | Four layouts, properties and 24 optional topic tags. |
 
-- **Open the folder index:** find instructions, files, and immediate subcollections.
-- **Make it yours:** rename bracketed placeholders and their indices in Obsidian. Duplicate only when another item needs its own collection.
-- **Keep one original:** add links where they explain a real relationship.
+**Make it yours:** rename bracketed placeholders and their indices in Obsidian. Each collection index explains its use and lists its files automatically. Keep one original; add links when they explain a real relationship.
 
-## Everyday tools
+## Tools at a glance
 
-| Need | Use |
+| Use | Tools |
 | --- | --- |
-| Capture information | Create a note in Inbox; choose its collection with NOTE. |
-| Plan work | Kanban for workflow; task checkboxes for actions. |
-| Review a period | Calendar for daily entries and ISO weeks; Monday starts the week. |
-| Find information | Folder indices, automatic lists, search, and Bookmarks. |
-| Change the layout | **Workspaces: Load workspace layout → Overview / Planning**. |
-| See connections | Graph View; area colors are preset, tag nodes initially hidden. |
+| Plan and review | Kanban, Tasks, Calendar; Monday starts the week. |
+| Create notes | Templater: NOTE, TASK, DAILY, WEEKLY. |
+| Draw and navigate | Excalidraw, Iconize, Bases, search, Bookmarks and Graph. |
+| Adjust presentation | Style Settings → **Second Brain**: Interface and Documents. Native scheme and fonts: Appearance. |
+| Restore a layout | Workspaces: **Overview** or **Planning**. |
 
-- **Automatic context:** new folders receive an index and parent icon. Note links follow moves; custom icons and further links remain your choice.
-- **Attachments:** save beside their explanatory note. Unreferenced files receive a fallback link in the nearest index.
+**Black/white with a green accent.** Customize light/dark values separately in **Style Settings → Second Brain → Interface**. Choose **Compact**, **Balanced** or **Spacious**, then fine-tune individual controls. Reset restores defaults. Disable `hence-interface` in **Appearance → CSS snippets** before choosing another community theme. Choose fonts and content size in native Appearance; optional interface/code sizes remain in Style Settings.
 
-## Protect your copy
+**Light/dark follows your system.** Change it in **Settings → Appearance → Base color scheme**. Drawings follow Obsidian too. Collapse either sidebar for more reading space.
 
-- **Back up the whole vault**, including `.obsidian` and attachments. Test a restored copy. Sync is not a backup.
-- **Keep real information in your private copy.**
-- **Deleting one Kanban card can trash its exclusive task note.** Shared notes are kept; session **Undo** restores both. Read [task guidance](planner/tasks/TASKS.md).
-- **Keep tool paths stable:** see [System](system/SYSTEM.md) before renaming journal, task, template, drawing, or board paths.
-- Deleted files go to `.trash`. Use local `history` or `archived` folders only for versions worth keeping.
+**Optional Helpers:** collection indices, parent icons and minimum links that follow moves. Each convenience has its own switch and folder exclusions; failures pause the affected automation with a notice. See [System](system/SYSTEM.md).
 
-Template and Helpers: **MIT / Hence**. Plugins retain their licenses. See the [maintenance guide](https://github.com/henceenterprise/second-brain/blob/Main/.github/MAINTENANCE.md) for sources, support, and selective updates; license texts are included in the package.
+## Compatibility and care
+
+| Platform | Status |
+| --- | --- |
+| Windows desktop · Obsidian 1.14.4 | Core validated; current presentation checks recorded separately. |
+| Obsidian 1.13.0+ | Declared minimum; not every version tested. |
+| macOS / Linux | Not validated. |
+| Mobile | Outside Helpers v1 support. |
+
+- **Back up the whole vault**, including settings and attachments. Test a restored copy; sync is not a backup.
+- **Update plugins normally.** Apply template changes [selectively](https://github.com/henceenterprise/second-brain/blob/Main/.github/UPDATING.md); preserve personal notes and choices.
+- **Keep personal information in your private copy.** Templater startup scripts and system commands are disabled.
+- **Card deletion can trash its exclusive task note.** Shared or uncertain notes are kept; session Undo restores both. [Task guidance](planner/tasks/TASKS.md).
+- **Keep tool paths stable.** Check [System](system/SYSTEM.md) before renaming tool destinations. Deleted files use `.trash`; keep worthwhile history locally.
+
+---
+
+Created by **Hence** · Template, presentation and Helpers: [MIT](LICENSE.md). Community plugins retain their own licenses.
+
+[Maintenance and sources](https://github.com/henceenterprise/second-brain/blob/Main/.github/MAINTENANCE.md) · [Support](https://github.com/henceenterprise/second-brain/issues) · [Private security reporting](https://github.com/henceenterprise/second-brain/security/policy)

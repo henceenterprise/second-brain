@@ -1,28 +1,27 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-resources
 ---
 
 # Drawings
 
-Keep general sketches, diagrams, and visual explanations here. Excalidraw creates new drawings in this folder.
+[Parent: Resources](../RESOURCES.md)
 
-- Create a drawing through Excalidraw's command palette, then give it a name that explains its purpose.
-- Add links to the notes it explains.
-- Keep one drawing and link it where needed.
+Sketches, diagrams and visual explanations for any subject.
 
-The Planner's WHITE BOARD remains in Planner because it supports that area's planning. Drawings specific to another record or project can stay beside that information.
+## Use
 
-> [!example]- A reusable diagram
-> Sketch how a process works and link the reference note that explains its steps. The drawing presents the relationships; the note keeps the instructions and sources.
+- Create a drawing through Excalidraw; give it a meaningful name.
+- Link the notes it explains. Keep one drawing and reuse its links.
+- New drawings, existing drawings and previews follow Obsidian's light/dark mode. Exported PNG/SVG files retain their exported colors.
+- WHITE BOARD stays in Planner; drawings specific to another record or project can stay beside it.
 
-> [!info]- Opening a drawing
-> - Use Excalidraw view to edit a drawing.
-> - If Obsidian shows its Markdown data, use the document's More options menu to switch to Excalidraw view.
-> - Avoid editing compressed drawing data manually.
+> [!info]- Opening and appearance
+> Use Excalidraw view to edit. If Markdown data appears, use the document's More options menu to switch views. Avoid editing compressed data manually. Change theme-following options in Settings → Excalidraw when a drawing needs its own appearance.
 >
 > Source: [Excalidraw documentation](https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/2.28.1/README.md).
-
-[Parent: Resources](../RESOURCES.md)
 
 ## Files and collections
 

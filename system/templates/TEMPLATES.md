@@ -1,27 +1,26 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-system
 ---
 
 # Templates
 
-Create and name a note. Run **Templater: Open insert template modal** and choose one of the four layouts.
+[Parent: System](../SYSTEM.md)
 
-| Layout | Use |
-| --- | --- |
-| [NOTE](layouts/NOTE.md) | Information, studies, references, and projects. Choose a collection; the note moves there and links its index. |
-| [TASK](layouts/TASK.md) | Outcome, actions, context, and result, kept in Planner's task collection. |
-| [DAILY](layouts/DAILY.md) | Review of a valid day; an invalid filename opens a period picker. |
-| [WEEKLY](layouts/WEEKLY.md) | Review of a valid ISO week; an invalid filename opens a period picker. |
+**Create → name → insert.** Run **Templater: Open insert template modal** and choose a layout once per note.
 
-- **Automatic:** Calendar creates DAILY/WEEKLY; Kanban **New note from card** creates TASK. Authorize Templater locally as explained in the vault README.
-- **Manual:** create the note in its destination, then insert its layout.
+| Layout | Use | Destination |
+| --- | --- | --- |
+| [NOTE](layouts/NOTE.md) | Information, studies, references and projects. | Choose a collection in the picker. |
+| [TASK](layouts/TASK.md) | Outcome, actions and completion evidence. | `planner/tasks` |
+| [DAILY](layouts/DAILY.md) | Review one valid day. | `planner/journal/daily` |
+| [WEEKLY](layouts/WEEKLY.md) | Review one valid ISO week. | `planner/journal/weekly` |
 
-| Layout | Destination |
-| --- | --- |
-| TASK | `planner/tasks` |
-| DAILY | `planner/journal/daily` |
-| WEEKLY | `planner/journal/weekly` |
-| NOTE | Choose a collection in the picker. |
+- **Automatic:** Calendar creates journals; Kanban **New note from card** creates TASK. Authorize Templater locally as explained in the vault README.
+- **Manual:** create and name a note, then insert its layout. NOTE asks where to keep it.
+- **Journal periods:** an invalid name opens a picker. Escape cancels; an occupied destination is never overwritten.
 
 ## Properties
 
@@ -83,5 +82,3 @@ Add properties only when useful: **Add file property**, or **Ctrl+;** on Windows
 > Source layouts contain Templater commands; generated notes must not. `created` comes from the destination file's creation time; the journal period comes from its filename. Invalid journal periods ask for a valid date or ISO week. Escape and occupied destinations preserve the file without inserting the layout. Date values stay distinct from action deadlines.
 >
 > Sources: [Properties](https://obsidian.md/help/properties), [Templater file](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/file-module.html), [Templater picker](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/system-module.html), [Tasks dates](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/8.4.0/docs/Getting%20Started/Dates.md).
-
-[Parent: System](../SYSTEM.md)

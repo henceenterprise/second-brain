@@ -89,5 +89,6 @@
   "resources/drawings": "LiPalette",
   "personal/interests/[INTEREST]": "LiHeart",
   "personal/memories/[MEMORY]": "LiImage",
-  "personal/people/[PERSON]": "LiUser"
+  "personal/people/[PERSON]": "LiUser",
+  "system/assets": "LiImage"
 }

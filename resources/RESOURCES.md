@@ -1,36 +1,28 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-resources
 ---
 
 # Resources
 
-Keep studies and reusable knowledge about any subject.
+[Parent: Vault overview](../README.md)
 
-Languages, crafts, academic topics, practical skills, and professional learning all fit here.
+Learning and reusable knowledge about any subject.
+
+## Use
+
+Explore questions in Studies; keep stable explanations in References. Bookmarks point to sources; drawings explain visually. Keep one primary explanation and link it where applied.
 
 ## Collections
 
-| Collection | Use |
+| Collection | Keep here |
 | --- | --- |
-| [Studies](studies/STUDIES.md) | Learning, research questions, course notes, and developing understanding. |
-| [References](references/REFERENCES.md) | Reusable concepts, explanations, checklists, and procedures. |
-| [Bookmarks](bookmarks/BOOKMARKS.md) | Pointers to outside material with a reason to keep them. |
-| [Drawings](drawings/DRAWINGS.md) | General sketches, diagrams, and visual explanations. |
-
-## Study and reuse
-
-Explore a question in a study note. Keep a stable, reusable explanation as a reference, linked to the evidence that supports it.
-
-- A bookmark points to outside material.
-- Your study or reference explains what you learned.
-- Keep one primary explanation and link it wherever you apply it.
-
-> [!example]- Example
-> A study of learning methods belongs here. Your own course schedule belongs in Personal or Work, and the next study session is an action in Planner.
-
-Add subject folders when a real collection needs them. The starter assumes no technical specialty or profession.
-
-[Parent: Vault overview](../README.md)
+| [Studies](studies/STUDIES.md) | Learning questions, evidence and findings. |
+| [References](references/REFERENCES.md) | Reusable concepts, procedures and checks. |
+| [Bookmarks](bookmarks/BOOKMARKS.md) | Outside sources with a reason to keep them. |
+| [Drawings](drawings/DRAWINGS.md) | Sketches, diagrams and explanations. |
 
 ## Files and collections
 

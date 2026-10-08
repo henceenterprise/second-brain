@@ -1,15 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Procedures
 
-- Instructions specific to this service.
-- Create a NOTE for each subject.
-- Record prerequisites, ordered steps, and expected results.
-- Link general reusable instructions rather than copying them.
-
 [Parent: Service placeholder](../SERVICE.md)
+
+Instructions specific to running this service.
+
+## Use
+
+- Create a NOTE with prerequisites, ordered steps and expected results.
+- State how to check the result and relevant limits.
+- Link general reusable instructions rather than copying them.
 
 ## Files and collections
 

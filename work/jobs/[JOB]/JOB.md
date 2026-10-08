@@ -1,19 +1,26 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Job placeholder
 
-- Rename [JOB] and this index in Obsidian.
-- Replace this guidance with the job purpose and context.
-- Use NOTE for additional information; track concrete actions in Planner.
+[Parent: Jobs](../JOBS.md)
+
+A starting collection for one role or opportunity.
+
+## Use
+
+- Rename `[JOB]` and this index in Obsidian.
+- Replace this guidance with purpose, responsibilities and useful context.
+- Use NOTE for supporting information; keep concrete actions in Planner.
 
 ## Collections
 
-- [Responsibilities](responsibilities/RESPONSIBILITIES.md) — Role requirements and ongoing duties.
-- [Documents](documents/DOCUMENTS.md) — Role-specific supporting material.
-
-[Parent: Jobs](../JOBS.md)
+- [Responsibilities](responsibilities/RESPONSIBILITIES.md)
+- [Documents](documents/DOCUMENTS.md)
 
 ## Files and collections
 

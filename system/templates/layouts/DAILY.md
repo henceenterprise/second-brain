@@ -18,5 +18,5 @@ if (existing && existing !== file) {
 const created = tp.file.creation_date("YYYY-MM-DD");
 if (target !== file.path) await tp.file.move(target.replace(/\.md$/, ""), file);
 tR += "---\ntype: daily\ndate: " + JSON.stringify(period) + "\ncreated: " + JSON.stringify(created) + "\naliases: []\ntags: []\n---\n\n# " + period + "\n\n" + "[".repeat(2) + "planner/journal/daily/DAILY|Collection" + "]".repeat(2) + "\n\n";
-tR += "## Focus\n\n## Observations and learning\n\n## Reflection\n\n> [!tip]- Using this review\n> Keep what matters for this period. Link actions from Planner and information from its original collection. Remove unused sections.\n";
+tR += "## Focus\n\n## Observations and learning\n\n## Reflection\n\n> [!tip]- Using this review\n> Record what matters for this day. Link actions and information from their original collections. Remove unused sections.\n";
 %>

@@ -16,7 +16,7 @@
 
 ## Plugins and compatibility
 
-- Six third-party plugins are bundled: Calendar, Iconize, Kanban, Tasks, Templater, and Excalidraw. **Second Brain Helpers** is separate MIT template code; it automates collection links, folder icons, and recoverable deletion of exclusive task notes.
+- Seven third-party plugins are bundled: Calendar, Iconize, Kanban, Tasks, Templater, Excalidraw, and Style Settings. **Second Brain Helpers** is separate MIT template code; it automates collection links, folder icons, and recoverable deletion of exclusive task notes.
 - Community code is not an Obsidian security sandbox.
 
 - Templater processes JavaScript inside the four layouts.

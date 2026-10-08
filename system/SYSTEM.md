@@ -1,8 +1,13 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-system
 ---
 
 # System
+
+[Parent: Vault overview](../README.md)
 
 Use the supplied layouts and topic catalogue to keep your notes consistent.
 
@@ -32,12 +37,31 @@ Use the supplied layouts and topic catalogue to keep your notes consistent.
 > - Keep one original for each attachment.
 > - Helpers links otherwise unreferenced files and Canvas from their nearest index, without changing their content.
 
-> [!info]- Template identity
-> The README and release use the official Hence symbol and name.
->
-> - Original artwork: [light artwork](hence-horizontal-principal.png) · [dark artwork](hence-horizontal-reverso.png).
-> - The [display signature](hence-signature.svg) keeps the original geometry readable in light and dark themes.
-> - These assets belong to the template identity.
+## Make the presentation yours
+
+Open **Settings → Style Settings → Second Brain**. One panel groups **Interface** and **Documents**. Choose **Compact**, **Balanced** or **Spacious**; extra spacing, control padding and line height remain adjustable. Use native **Appearance** for mode, theme and font choices; Graph colors remain unchanged.
+
+**Interface** refines the native app: black/white surfaces, green accent, advanced sizes, spacing and corners. Colors have independent light/dark values. Folder icons and indentation guides use the six area colors, darkened in light mode for visibility; **Use neutral folder accents** disables them.
+
+Use **Use native appearance** to pause the interface styling. Disable `hence-interface` in **Appearance → CSS snippets** before installing another community theme. Choose fonts and content size in native Appearance. Optional interface/code sizes remain in Style Settings.
+
+| Control | Starting point |
+| --- | --- |
+| Reading width | 760 px; choose 520–1000 px. |
+| Layout density | Balanced; Compact or Spacious. |
+| Area accents | On or Off. |
+| Area colors | Separate light and dark values for each area. |
+| Heading style | Editorial or Native. |
+| Table style | Subtle or Bordered. |
+
+- **Theme:** Settings → Appearance → Base color scheme. System follows your device; Light and Dark override it.
+- **Reset:** use the reset control beside a changed Style Settings value.
+- **No Style Settings:** the optional presentation snippet keeps its starting values.
+- **No snippet:** content and navigation still work; both theme-specific images may appear.
+- **Index properties:** hidden in Reading View for a cleaner page; edit them in Live Preview.
+- **Your notes:** the four layouts do not add presentation classes. Remove an index's `second-brain-index` class to keep native styling there.
+
+[Identity and editable artwork](assets/ASSETS.md) — transparent banners, area maps, official logos and the vault overview.
 
 ## Tool paths in v1
 
@@ -56,7 +80,6 @@ Renaming links alone does not update plugin destinations.
 
 Keep the supplied template filenames and the task/journal collection indices. Customize their text, not their paths.
 
-[Parent: Vault overview](../README.md)
 
 ## Files and collections
 

@@ -1,17 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Person placeholder
 
-- Rename [PERSON] and this index in Obsidian.
-- Keep useful context about one relationship: shared interests, conversations, and commitments.
-- Add detail notes when needed.
-
-> [!example]- Example
-> A fictional collaborator can have a note about an agreed next step.
-
 [Parent: People](../PEOPLE.md)
+
+A starting collection for one relationship.
+
+## Use
+
+- Rename `[PERSON]` and this index in Obsidian.
+- Replace this guidance with relevant relationship context.
+- Add notes for conversations or commitments only when useful; respect privacy.
 
 ## Files and collections
 

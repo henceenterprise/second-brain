@@ -1,17 +1,26 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Documents
 
-Keep official personal documents and the context needed to use them. Store one original file beside its explanatory note.
+[Parent: Personal](../PERSONAL.md)
+
+Official personal documents and the context needed to use them.
+
+## Use
+
+Store one original beside its explanatory NOTE.
 
 ## Collections
 
-- [Identification](identification/IDENTIFICATION.md) — Identity and eligibility documents.
-- [Certificates](certificates/CERTIFICATES.md) — Qualifications, registrations, and other certificates.
-
-[Parent: Personal](../PERSONAL.md)
+| Collection | Keep here |
+| --- | --- |
+| [Identification](identification/IDENTIFICATION.md) | Identity and eligibility. |
+| [Certificates](certificates/CERTIFICATES.md) | Qualifications and registrations. |
 
 ## Files and collections
 

@@ -1,32 +1,30 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Projects
 
-Use a project for a defined outcome to complete. A project can fit in one note or grow into a folder as its actual material grows.
-
-## Start a project
-
-1. Name a note after its outcome.
-2. Insert the note template and adapt its sections to the project.
-3. Define the outcome, scope, decisions, and evidence of completion.
-4. Link its next action from Kanban.
-5. Create extra folders only when they help organize actual material.
-
-> [!example]- Example
-> Improving a recurring process can involve observations, options, decisions, and actions. It does not require pre-created assets, documentation, or study subfolders.
-
-Reusable research belongs in Resources; project-specific decisions belong here. Link the two without duplicating content.
-
-Add optional `due` and `priority` to a project note or project index when they describe its overall outcome. Individual action deadlines remain in Planner.
-
 [Parent: Work](../WORK.md)
 
-## Item placeholder
+Defined outcomes for any part of your life, professional or personal.
 
-- The [project placeholder](%5BPROJECT%5D/PROJECT.md) demonstrates a folder for one project.
-- Rename it for your own item, or duplicate it when another item needs its own collection.
+## Use
+
+- Name a NOTE after the outcome; state scope and evidence of completion.
+- Record decisions and link the next action from Kanban.
+- Keep reusable research in Resources, linked where it supports the project.
+- Use optional `due` and `priority` for the overall outcome. Action deadlines stay separate.
+- Add folders only when actual material becomes easier to find.
+
+> [!example]- Example
+> Preparing an application and organizing a home move are both projects. Their decisions stay here; life records stay in Personal.
+
+## Collections
+
+- [project placeholder](%5BPROJECT%5D/PROJECT.md)
 
 ## Files and collections
 

@@ -1,10 +1,15 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-planner
 ---
 
 # Planner
 
-Keep actions, task context, and dated reviews here. Planning supports Personal, Work, and Resources without replacing their information.
+[Parent: Vault overview](../README.md)
+
+Actions, events and reviews, connected to their original records.
 
 ## Tools
 
@@ -24,9 +29,7 @@ Keep actions, task context, and dated reviews here. Planning supports Personal, 
 
 ## Upcoming and ongoing events
 
-- Dates describe an event; tasks describe actions needed for it.
-- Keep the event in its own collection.
-- Calendar continues to create journal entries.
+**Events describe when something happens; actions describe what to do.** Keep each event in its own collection. Calendar creates journal entries.
 
 ```base
 filters:
@@ -67,7 +70,6 @@ views:
 > [!example]- Example
 > A project can link a location-choice task and a daily conversation note. Each holds the information appropriate to its purpose.
 
-[Parent: Vault overview](../README.md)
 
 > [!info]- Kanban columns
 > | Column | Meaning |

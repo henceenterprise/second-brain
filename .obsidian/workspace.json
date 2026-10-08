@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "38c991adf26972f7",
+        "id": "637e845be8f9cc1b",
         "type": "tabs",
         "children": [
           {
-            "id": "f4a5e58e307a5fd7",
+            "id": "8b8898f76c14dcdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 260.5
   },
   "right": {
     "id": "6ce1985ac903d994",
@@ -177,7 +177,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Índice"
+              "title": "\u00cdndice"
             }
           }
         ]
@@ -230,7 +230,7 @@
               "state": {},
               "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Visualização de diagrama de grafo"
+              "title": "Visualiza\u00e7\u00e3o de diagrama de grafo"
             }
           }
         ]
@@ -241,8 +241,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Abrir Visualização de diagrama de grafo": false,
-      "workspaces:Gerir esquema da área de trabalho": false,
+      "graph:Abrir Visualiza\u00e7\u00e3o de diagrama de grafo": false,
+      "workspaces:Gerir esquema da \u00e1rea de trabalho": false,
       "switcher:Abrir Quick Switcher": false,
       "canvas:Criar novo Canvas": true,
       "daily-notes:Abrir nota de hoje": false,
@@ -253,22 +253,24 @@
       "obsidian-excalidraw-plugin:New drawing": true
     }
   },
-  "active": "f4a5e58e307a5fd7",
+  "active": "8b8898f76c14dcdf",
   "lastOpenFiles": [
-    "system/templates/TEMPLATES.md",
-    "README.md",
-    "system/hence-signature.svg",
-    "system/hence-horizontal-reverso.png",
-    "system/hence-horizontal-principal.png",
-    "LICENSE",
-    "planner/KANBAN.md",
-    "planner/PLANNER.md",
-    "resources/RESOURCES.md",
     "work/WORK.md",
+    "README.md",
+    "system/SYSTEM.md",
+    "LICENSE.md",
+    "planner/PLANNER.md",
+    "system/assets/second-brain-cover.png",
+    "system/assets/second-brain-overview.png",
+    "system/assets/ASSETS.md",
+    "system/assets",
     "personal/PERSONAL.md",
     "inbox/INBOX.md",
-    "planner/tasks/casasas.md",
-    "planner/tasks/asasas.md",
+    "system/assets/second-brain-map-dark.png",
+    "system/assets/second-brain-map.png",
+    "system/templates/TEMPLATES.md",
+    "planner/KANBAN.md",
+    "resources/RESOURCES.md",
     "personal/memories/[MEMORY]/MEMORY.md",
     "personal/interests/[INTEREST]/INTEREST.md",
     "personal/memories/[MEMORY]",
@@ -291,8 +293,6 @@
     "resources/references/checklists/CHECKLISTS.md",
     "resources/references/checklists",
     "work/jobs/[JOB]/responsibilities/RESPONSIBILITIES.md",
-    "work/jobs/[JOB]/responsibilities",
-    "work/jobs/[JOB]/documents/DOCUMENTS.md",
-    "work/projects/[PROJECT]/deliverables/DELIVERABLES.md"
+    "work/jobs/[JOB]/responsibilities"
   ]
 }

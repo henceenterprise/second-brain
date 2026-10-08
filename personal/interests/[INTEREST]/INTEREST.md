@@ -1,17 +1,24 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Interest placeholder
 
-- Rename [INTEREST] and this index in Obsidian.
-- Keep personal activities, preferences, and experiences for one interest.
-- Reusable learning belongs in Resources; link it when relevant.
+[Parent: Interests](../INTERESTS.md)
+
+A starting collection for one interest.
+
+## Use
+
+- Rename `[INTEREST]` and this index in Obsidian.
+- Replace this guidance with the interest and useful context.
+- Keep your activities and experiences here; link reusable learning in Resources.
 
 > [!example]- Example
-> A fictional gardening collection can contain a planting journal and personal observations.
-
-[Parent: Interests](../INTERESTS.md)
+> A fictional gardening collection holds personal observations and a planting journal.
 
 ## Files and collections
 

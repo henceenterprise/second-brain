@@ -1,14 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Maintenance
 
-- Create a NOTE for an item or maintenance activity.
-- Record dates, work performed, and useful instructions.
-- Keep scheduled actions in Planner.
-
 [Parent: Home](../HOME.md)
+
+Care instructions and service history for your living space.
+
+## Use
+
+- Create a NOTE for an item or maintenance activity.
+- Record known dates, work performed and useful instructions.
+- Keep scheduled actions in Planner; link general instructions rather than copying them.
 
 ## Files and collections
 

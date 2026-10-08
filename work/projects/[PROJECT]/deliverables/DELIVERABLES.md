@@ -1,15 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Deliverables
 
-- Outputs and completion evidence.
-- Create a NOTE for each subject.
-- Record the expected result and link its output or evidence.
-- Distinguish a draft from an accepted result.
-
 [Parent: Project placeholder](../PROJECT.md)
+
+Project outputs and evidence of completion.
+
+## Use
+
+- Create a NOTE stating the expected result.
+- Link the output or evidence, retaining one original.
+- Distinguish a draft, a finished result and an accepted result.
 
 ## Files and collections
 

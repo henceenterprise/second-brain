@@ -1,20 +1,27 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-resources
 ---
 
 # References
 
-- Keep knowledge you can use again.
-- Each reference explains when it applies, how to use it, its source, and its limits.
-- Keep situation-specific records in their own collections.
+[Parent: Resources](../RESOURCES.md)
+
+Knowledge you can apply in more than one situation.
+
+## Use
+
+Explain when it applies, how to use it, its source and limits. Keep situation-specific records in their own collections.
 
 ## Collections
 
-- [Concepts](concepts/CONCEPTS.md) — Explanations, principles, and definitions.
-- [Procedures](procedures/PROCEDURES.md) — Repeatable steps for a result.
-- [Checklists](checklists/CHECKLISTS.md) — Checks that prevent omissions.
-
-[Parent: Resources](../RESOURCES.md)
+| Collection | Keep here |
+| --- | --- |
+| [Concepts](concepts/CONCEPTS.md) | Definitions and explanations. |
+| [Procedures](procedures/PROCEDURES.md) | Repeatable steps toward a result. |
+| [Checklists](checklists/CHECKLISTS.md) | Concrete checks that prevent omissions. |
 
 ## Files and collections
 

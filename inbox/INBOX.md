@@ -1,31 +1,32 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-inbox
 ---
 
 # Inbox
 
-- Capture information here when you do not yet know where it belongs: an idea, question, document, link, or action to clarify.
-- New notes created without a chosen location are configured to start here.
-
-## Capture and process
-
-1. Give the note a title you can recognize later.
-2. Record what you need to remember and where it came from.
-3. During a review, move it to the area that owns it.
-4. Add a card to Kanban if it needs action.
-5. Remove disposable capture once its useful information is safely kept elsewhere.
-
-| Item | Home |
-| --- | --- |
-| A record about your own life | Personal |
-| A role, responsibility, or project for any part of life | Work |
-| Learning or reusable information | Resources |
-| Actions and dated reviews | Planner |
-
-> [!example]- Example
-> A general maintenance guide belongs in Resources, your purchase receipt belongs in Personal, and the next maintenance action belongs in Planner.
-
 [Parent: Vault overview](../README.md)
+
+Capture first; decide where information belongs when its purpose is clear.
+
+## Process a capture
+
+1. Give it a title you will recognize.
+2. Record what matters and where it came from.
+3. Use NOTE to choose its collection, or move it in Obsidian.
+4. Add a Kanban card if it needs action; remove a disposable capture once its useful information is safely retained.
+
+| What you captured | Home |
+| --- | --- |
+| A record about your life | Personal |
+| A project, role or responsibility | Work |
+| Learning or reusable information | Resources |
+| An action or dated review | Planner |
+
+> [!example]- One subject, different records
+> A maintenance guide is reusable knowledge; your receipt is a life record; the next maintenance step is an action. Keep each original in its own context.
 
 ## Files and collections
 

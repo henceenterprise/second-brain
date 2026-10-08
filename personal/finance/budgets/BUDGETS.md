@@ -1,25 +1,25 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Budgets
 
-Keep plans for income, spending, or a particular activity. A budget can cover a month, an event, a project, or another period that fits your situation.
+[Parent: Finance](../FINANCE.md)
 
-## Create a budget
+Plans for income, spending, an activity or a period.
 
-- Record its purpose, period, and currency when needed.
-- A simple table can use **Category**, **Planned**, **Actual**, and **Notes**.
-- Link source documents rather than copying full statements into the note.
+## Use
 
-A spreadsheet can live beside the budget note if you prefer a separate application for calculations. The note should explain what the file contains.
+- Create a NOTE stating purpose, period and currency.
+- Compare **Category · Planned · Actual · Notes** in a simple table.
+- Link supporting records; distinguish estimates from confirmed amounts.
+- A spreadsheet can live beside its explanatory note. Put follow-up actions in Planner.
 
 > [!example]- Example
-> `event-budget.md` might group venue, food, and transport estimates. Replace those categories with ones relevant to your own activity.
-
-Review the plan when useful. Put follow-up actions on Kanban, and preserve the distinction between a plan and a confirmed record.
-
-[Parent: Finance](../FINANCE.md)
+> A fictional event budget groups venue, food and transport. Replace categories with those you need.
 
 ## Files and collections
 

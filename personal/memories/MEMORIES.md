@@ -1,26 +1,25 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Memories
 
-Keep recollections, events, and milestones you want to revisit. A memory can be a short note, a story, or a note linking to media kept locally or elsewhere.
+[Parent: Personal](../PERSONAL.md)
 
-## Add context
+Experiences, events and milestones worth revisiting.
 
-- Choose a recognizable title.
-- Record what happened, why it matters, and its date when known.
-- Link other notes when those connections help explain the memory.
+## Use
 
-- Keep an attachment beside its memory note when it belongs only there.
-- For shared media, retain one copy beside the note explaining it and link that file from the other notes.
+- Choose a recognizable title and create a NOTE.
+- Record what happened, why it matters and its date when known.
+- Link photographs or keepsakes from the note explaining them; keep one original.
+- Use the Journal for daily logging and this collection for deliberately preserved memories.
 
 > [!example]- Example
-> `weekend-gathering.md` might contain a short recollection and links to photographs. It needs no predefined divisions for animals, people, or places.
-
-Use the JOURNAL for day-by-day logging and this collection for memories you deliberately want to preserve and retrieve.
-
-[Parent: Personal](../PERSONAL.md)
+> A fictional weekend gathering has a short account and linked photographs.
 
 ## Files and collections
 

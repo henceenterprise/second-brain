@@ -1,17 +1,24 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-resources
 ---
 
 # Procedures
 
-- Use NOTE for a repeatable process.
-- State the purpose, prerequisites, steps, expected result, and how to check it.
-- Link sources and explain relevant limits.
+[Parent: References](../REFERENCES.md)
+
+Repeatable processes with a clear result.
+
+## Use
+
+- Create a NOTE stating purpose and prerequisites.
+- List ordered steps, expected results and how to check them.
+- Link sources and explain limits; keep situation-specific records with their context.
 
 > [!example]- Example
-> A preparation procedure can list the required materials, ordered steps, and final checks.
-
-[Parent: References](../REFERENCES.md)
+> A preparation procedure names the materials, steps and final check.
 
 ## Files and collections
 

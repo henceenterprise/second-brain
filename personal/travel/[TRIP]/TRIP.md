@@ -1,17 +1,25 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Trip placeholder
 
-- Rename [TRIP] and this index in Obsidian.
-- Replace this guidance with the trip purpose, dates, arrangements, and useful links.
-- Create additional notes with NOTE; link expenses to their original records.
+[Parent: Travel](../TRAVEL.md)
+
+A starting collection for one trip.
+
+## Use
+
+- Rename `[TRIP]` and this index in Obsidian.
+- Replace this guidance with purpose, known dates and arrangements.
+- Use `start_date` and optional `end_date` for the trip period.
+- Use NOTE for additional details; link expenses to their original records.
 
 > [!example]- Example
-> A fictional weekend visit can have an itinerary note and a note for booking details.
-
-[Parent: Travel](../TRAVEL.md)
+> A fictional weekend trip has a destination, dates, transport arrangements and a short packing checklist.
 
 ## Files and collections
 

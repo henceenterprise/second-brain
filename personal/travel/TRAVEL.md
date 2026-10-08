@@ -1,19 +1,25 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Travel
 
-Keep plans, arrangements, and memories for each trip. Duplicate the placeholder when another trip needs its own collection.
+[Parent: Personal](../PERSONAL.md)
+
+Plans and records for journeys, with a folder when a trip needs one.
+
+## Use
+
+- Use NOTE for arrangements and link each original record.
+- Add `start_date` and optional `end_date` when dates are known; use dates without invented times.
+- Trip indices appear below. Upcoming and ongoing dated trips also appear in Planner.
 
 ## Collections
 
-- [Trip placeholder](%5BTRIP%5D/TRIP.md) — A starting folder for one trip.
-
-- Add `start_date` and optional `end_date` to the trip index when dates are known.
-- The list below includes trip indices; upcoming and ongoing trips also appear in the Planner event list.
-
-[Parent: Personal](../PERSONAL.md)
+- [Trip placeholder](%5BTRIP%5D/TRIP.md)
 
 ## Files and collections
 

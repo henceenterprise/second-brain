@@ -1,14 +1,19 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-planner
 ---
 
 # Task details
 
-Use a detail note when a Kanban card needs more context: an outcome, decisions, sources, next actions, or completion evidence.
+[Parent: Planner](../PLANNER.md)
+
+Outcomes, individual actions and the context needed to finish work.
 
 ## Create and connect
 
-Create a note here and insert the task template, or use the Kanban card menu to create a note from the card. Its folder and template are configured on the board.
+**From a card:** choose **New note from card** in its menu. **From a note:** insert TASK; its destination is configured here.
 
 Link the detail note from a Kanban card. Update the card's column for workflow status and use checkboxes for its individual actions.
 
@@ -95,7 +100,6 @@ Moving a card to CANCELED or ARCHIVED does not change its actions. Review outsta
 >
 > Sources: [Tasks statuses](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/8.4.0/docs/Getting%20Started/Statuses.md), [recurring tasks](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/8.4.0/docs/Getting%20Started/Recurring%20Tasks.md).
 
-[Parent: Planner](../PLANNER.md)
 
 ## Files and collections
 

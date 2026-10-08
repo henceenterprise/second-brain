@@ -18,5 +18,5 @@ if (existing && existing !== file) {
 const created = tp.file.creation_date("YYYY-MM-DD");
 if (target !== file.path) await tp.file.move(target.replace(/\.md$/, ""), file);
 tR += "---\ntype: weekly\nweek: " + JSON.stringify(period) + "\ncreated: " + JSON.stringify(created) + "\naliases: []\ntags: []\n---\n\n# " + period + "\n\n" + "[".repeat(2) + "planner/journal/weekly/WEEKLY|Collection" + "]".repeat(2) + "\n\n";
-tR += "## Results and learning\n\n## Open loops\n\n## Next week\n\n> [!tip]- Using this review\n> Keep what matters for this period. Link actions from Planner and information from its original collection. Remove unused sections.\n";
+tR += "## Results and learning\n\n## Open loops\n\n## Next week\n\n> [!tip]- Using this review\n> Review results and unresolved commitments for this week. Link original records and choose useful next actions. Remove unused sections.\n";
 %>

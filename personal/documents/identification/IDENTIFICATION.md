@@ -1,14 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Identification
 
-- Create a NOTE describing a document, its purpose, issuer, and relevant dates.
-- Keep sensitive information only in your private vault.
-- Link the original file; track renewal actions in Planner.
-
 [Parent: Documents](../DOCUMENTS.md)
+
+Identity and eligibility documents, with enough context to use them.
+
+## Use
+
+- Create a NOTE: document purpose, issuer and known dates.
+- Link the original; keep sensitive information in your private copy.
+- Track renewal actions in Planner.
 
 ## Files and collections
 

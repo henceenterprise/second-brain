@@ -26,4 +26,4 @@ tags: []
 ## Context and result
 
 > [!tip]- Using this task
-> Describe the outcome, add real actions as checkboxes, and link the project or record they support. Keep decisions, blockers, and completion evidence here. The Kanban column tracks the work; each checkbox tracks one action.
+> State the outcome. Add real actions as checkboxes; link the project or record they support. Keep decisions, blockers and completion evidence. The card tracks workflow; checkboxes track individual actions.

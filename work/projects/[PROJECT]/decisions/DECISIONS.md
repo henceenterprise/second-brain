@@ -1,15 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Decisions
 
-- Choices, reasons, and implications.
-- Create a NOTE for each subject.
-- Record the question, options, choice, reason, and date.
-- Preserve earlier decisions when their history still matters.
-
 [Parent: Project placeholder](../PROJECT.md)
+
+Choices, their reasons and their implications for this project.
+
+## Use
+
+- Create a NOTE stating the question and relevant options.
+- Record the choice, reason, known date and implications.
+- Keep earlier decisions when their history still matters.
 
 ## Files and collections
 

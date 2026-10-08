@@ -1,29 +1,29 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Services
 
-Keep ongoing or repeatable service-delivery context: purpose, operating notes, agreements, recurring responsibilities, and useful procedures.
-
-## Organize an actual service
-
-- Start with one note explaining whom the service supports, what it delivers, its boundaries, and the material needed to run it.
-- Add a folder only if it needs several related notes or files.
-
-> [!example]- Example
-> A recurring support service can link a checklist in References, specific arrangements here, and actions on Kanban.
-
-Keep a one-time improvement with a clear end in Projects. Keep knowledge reused across services in Resources.
-
-Expand a service into subcollections when its actual material benefits from them.
-
 [Parent: Work](../WORK.md)
 
-## Item placeholder
+Ongoing or repeatable service delivery and its responsibilities.
 
-- The [service placeholder](%5BSERVICE%5D/SERVICE.md) demonstrates a folder for one service.
-- Rename it for your own item, or duplicate it when another item needs its own collection.
+## Use
+
+- Create a NOTE: whom it supports, what it delivers and its boundaries.
+- Keep specific arrangements and operating context here.
+- Link reusable procedures in Resources and concrete actions in Planner.
+- Keep one-time improvements with a defined end in Projects.
+
+> [!example]- Example
+> A fictional recurring support service links a general checklist, its specific agreement and active tasks.
+
+## Collections
+
+- [service placeholder](%5BSERVICE%5D/SERVICE.md)
 
 ## Files and collections
 

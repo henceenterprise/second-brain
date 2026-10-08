@@ -1,25 +1,32 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Personal
 
-- Keep records about your life here.
-- Store explanations reusable in other situations in Resources.
-- Keep one original and link it when needed.
+[Parent: Vault overview](../README.md)
+
+Records about your own life.
+
+## Use
+
+Keep one original; reusable explanations belong in Resources.
 
 ## Collections
 
-- [Finance](finance/FINANCE.md) — Budgets, invoices, and financial records.
-- [Health](health/HEALTH.md) — Appointments and health records.
-- [Home](home/HOME.md) — Inventory and maintenance.
-- [Travel](travel/TRAVEL.md) — Plans and records for individual trips.
-- [Documents](documents/DOCUMENTS.md) — Identification and certificates.
-- [Interests](interests/INTERESTS.md) — Hobbies and subjects you follow.
-- [People](people/PEOPLE.md) — Relationship context and commitments.
-- [Memories](memories/MEMORIES.md) — Events and recollections worth keeping.
-
-[Parent: Vault overview](../README.md)
+| Collection | Keep here |
+| --- | --- |
+| [Finance](finance/FINANCE.md) | Budgets, invoices and financial records. |
+| [Health](health/HEALTH.md) | Appointments and health records. |
+| [Home](home/HOME.md) | Inventory and maintenance. |
+| [Travel](travel/TRAVEL.md) | Trip plans and records. |
+| [Documents](documents/DOCUMENTS.md) | Identification and certificates. |
+| [Interests](interests/INTERESTS.md) | Personal practice and reflections. |
+| [People](people/PEOPLE.md) | Relationships and commitments. |
+| [Memories](memories/MEMORIES.md) | Experiences worth keeping. |
 
 ## Files and collections
 

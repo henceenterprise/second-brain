@@ -1,15 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Agreements
 
-- Scope, commitments, and arrangements.
-- Create a NOTE for each subject.
-- Record the parties or roles, scope, commitments, and relevant dates.
-- Link the original agreement.
-
 [Parent: Service placeholder](../SERVICE.md)
+
+Scope, commitments and arrangements for this service.
+
+## Use
+
+- Create a NOTE naming relevant parties or roles, scope and known dates.
+- Record commitments and link the original agreement.
+- Track concrete follow-up actions in Planner.
 
 ## Files and collections
 

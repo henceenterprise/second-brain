@@ -20,5 +20,5 @@ if (chosen) {
     parent = "\n" + "[".repeat(2) + chosen.path.replace(/\.md$/, "") + "|Collection" + "]".repeat(2) + "\n";
   }
 }
-tR += "---\ntype: note\ncreated: " + JSON.stringify(created) + "\ndue:\npriority:\naliases: []\ntags: []\n---\n\n# " + title + "\n" + parent + "\n## Notes\n\n## Sources\n\n> [!tip]- Using this note\n> Record the purpose and useful information. Keep source titles and links. Add related notes when they explain the context or application. Remove unused sections.\n";
+tR += "---\ntype: note\ncreated: " + JSON.stringify(created) + "\ndue:\npriority:\naliases: []\ntags: []\n---\n\n# " + title + "\n" + parent + "\n## Notes\n\n## Sources\n\n> [!tip]- Using this note\n> State the purpose. Record useful information and original sources. Link related notes only when they clarify the context. Remove unused sections.\n";
 %>

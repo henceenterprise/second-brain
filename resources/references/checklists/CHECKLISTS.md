@@ -1,17 +1,24 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-resources
 ---
 
 # Checklists
 
-- Use NOTE for reusable checks.
-- State when to use the list and keep each check concrete.
-- These checkboxes are reference material; create a task in Planner when using a checklist for actual work.
+[Parent: References](../REFERENCES.md)
+
+Reusable checks that prevent omissions.
+
+## Use
+
+- Create a NOTE stating when to use the checklist.
+- Make each check concrete and observable.
+- These checks are reference material. Create a Planner task when applying them to actual work.
 
 > [!example]- Example
-> A meeting checklist can cover preparation, discussion points, and follow-up.
-
-[Parent: References](../REFERENCES.md)
+> A meeting checklist covers preparation, discussion points and follow-up.
 
 ## Files and collections
 

@@ -1,6 +1,8 @@
 {
   "inherited": {},
-  "generatedIndices": {},
+  "generatedIndices": {
+    "system/assets": "system/assets/ASSETS.md"
+  },
   "enabled": {
     "context": true,
     "indexes": true,

@@ -1,14 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Health records
 
-- Create a NOTE explaining each report or record.
-- Record its date and source; attach the original beside the note and link it.
-- Preserve the wording of professional recommendations.
-
 [Parent: Health](../HEALTH.md)
+
+Reports, results and treatment records with their original context.
+
+## Use
+
+- Create a NOTE stating the date, source and reason for keeping the record.
+- Attach and link the original beside the note.
+- Preserve the wording of professional recommendations.
 
 ## Files and collections
 

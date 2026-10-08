@@ -1,17 +1,26 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Home
 
-Keep information needed to look after your living space.
+[Parent: Personal](../PERSONAL.md)
+
+Information needed to look after your living space.
+
+## Use
+
+Use NOTE for an item or activity; link its manuals and original records.
 
 ## Collections
 
-- [Inventory](inventory/INVENTORY.md) — Items, manuals, and warranties.
-- [Maintenance](maintenance/MAINTENANCE.md) — Care instructions and service history.
-
-[Parent: Personal](../PERSONAL.md)
+| Collection | Keep here |
+| --- | --- |
+| [Inventory](inventory/INVENTORY.md) | Items, manuals and warranties. |
+| [Maintenance](maintenance/MAINTENANCE.md) | Care instructions and service history. |
 
 ## Files and collections
 

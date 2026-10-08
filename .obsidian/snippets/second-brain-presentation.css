@@ -1,0 +1,457 @@
+/* Optional presentation for Second Brain documents. No global theme override.
+   MIT — Hence. Values fall back safely when Style Settings is disabled. */
+/* @settings
+name: Second Brain
+id: second-brain-presentation
+settings:
+  - id: second-brain-style-help
+    title: Appearance
+    type: info-text
+    description: "Native Appearance handles mode, themes, fonts and content size. Optional controls below refine the interface and supplied guidance."
+  - id: second-brain-density
+    title: Layout density
+    description: "Choose a starting rhythm for the interface and template guidance. Individual settings remain available."
+    type: class-select
+    allowEmpty: false
+    default: second-brain-balanced
+    options:
+      - {label: Compact, value: second-brain-compact}
+      - {label: Balanced, value: second-brain-balanced}
+      - {label: Spacious, value: second-brain-spacious}
+  - id: second-brain-spacing-overrides
+    title: Advanced spacing
+    type: heading
+    level: 1
+    collapsed: true
+  - id: second-brain-extra-space
+    title: Extra document spacing
+    description: "Add or subtract pixels from the selected preset. Does not restyle personal notes."
+    type: variable-number-slider
+    default: 0
+    min: -4
+    max: 16
+    step: 4
+  - id: second-brain-line-height
+    title: Text line height
+    description: "Optional line-height override for template guidance. Reset follows the chosen preset; the listed default describes Balanced."
+    type: variable-number-slider
+    default: 1.75
+    min: 1.25
+    max: 2.25
+    step: 0.25
+  - id: hence-extra-padding
+    title: Extra control padding
+    description: "Add pixels to the selected interface preset. Font controls are in native Appearance."
+    type: variable-number-slider
+    default: 0
+    min: 0
+    max: 8
+    step: 4
+  - id: hence-interface-group
+    title: Interface
+    type: heading
+    level: 1
+    collapsed: false
+  - id: hence-interface-off
+    title: "Use native appearance"
+    description: "Disable this interface layer. Also disable its CSS snippet before using another community theme."
+    type: "class-toggle"
+    default: false
+  - id: hence-root-icons-off
+    title: "Use neutral folder accents"
+    description: "Turn off area colors on folder icons and indentation guides. Icon shapes are preserved."
+    type: "class-toggle"
+    default: false
+  - id: hence-colors
+    title: "Colors — independent light and dark values"
+    type: "heading"
+    level: 2
+    collapsed: true
+  - id: hence-ui-background-light
+    title: "Main background — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#ffffff"
+  - id: hence-ui-background-dark
+    title: "Main background — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#000000"
+  - id: hence-ui-surface-light
+    title: "Panels and controls — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#f5f5f5"
+  - id: hence-ui-surface-dark
+    title: "Panels and controls — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#131313"
+  - id: hence-ui-text-light
+    title: "Main text — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#000000"
+  - id: hence-ui-text-dark
+    title: "Main text — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#ffffff"
+  - id: hence-ui-muted-light
+    title: "Secondary text — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#595959"
+  - id: hence-ui-muted-dark
+    title: "Secondary text — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#b3b3b3"
+  - id: hence-ui-border-light
+    title: "Borders — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#d1d1d1"
+  - id: hence-ui-border-dark
+    title: "Borders — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#333333"
+  - id: hence-ui-accent-light
+    title: "Green accent — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#2e7633"
+  - id: hence-ui-accent-dark
+    title: "Green accent — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#53b559"
+  - id: hence-ui-on-accent-light
+    title: "Text on accent — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#ffffff"
+  - id: hence-ui-on-accent-dark
+    title: "Text on accent — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: "#000000"
+  - id: hence-fonts
+    title: "Advanced sizes"
+    type: "heading"
+    level: 2
+    collapsed: true
+  - id: hence-ui-size
+    title: "Interface size"
+    type: "variable-number-slider"
+    default: 13
+    min: 11
+    max: 22
+    step: 1
+    description: "Size in pixels. These controls override the corresponding native size while this layer is enabled."
+  - id: hence-code-size
+    title: "Code size"
+    type: "variable-number-slider"
+    default: 14
+    min: 11
+    max: 28
+    step: 1
+    description: "Size in pixels. These controls override the corresponding native size while this layer is enabled."
+  - id: hence-layout
+    title: "Spacing and corners"
+    type: "heading"
+    level: 2
+    collapsed: true
+  - id: hence-radius
+    title: "Corner radius"
+    type: "variable-number-slider"
+    default: 8
+    min: 0
+    max: 16
+    step: 4
+    description: "Base radius in pixels. Larger surfaces use a proportional radius."
+  - id: hence-help
+    title: "Personalization"
+    type: "info-text"
+    description: "Reset this section to restore Hence defaults. Custom colors can reduce contrast: check text, links and selected controls in both modes. Graph area colors and semantic warning/error colors remain unchanged. Disable the CSS snippet to remove all interface overrides."
+  - id: second-brain-guidance-group
+    title: Documents
+    type: heading
+    level: 1
+    collapsed: false
+  - id: second-brain-reading-width
+    title: Reading width
+    description: Maximum width of template guidance. Narrow windows still fit.
+    type: variable-number-slider
+    default: 760
+    min: 520
+    max: 1000
+    step: 20
+  - id: second-brain-accents
+    title: Area accents
+    description: Decoration only; this does not change Graph colors.
+    type: class-select
+    allowEmpty: false
+    default: second-brain-accents-on
+    options:
+      - label: On
+        value: second-brain-accents-on
+      - label: Off
+        value: second-brain-accents-off
+  - id: second-brain-headings
+    title: Heading style
+    type: class-select
+    allowEmpty: false
+    default: second-brain-editorial
+    options:
+      - label: Editorial
+        value: second-brain-editorial
+      - label: Native
+        value: second-brain-native-headings
+  - id: second-brain-tables
+    title: Table style
+    type: class-select
+    allowEmpty: false
+    default: second-brain-subtle-tables
+    options:
+      - label: Subtle
+        value: second-brain-subtle-tables
+      - label: Bordered
+        value: second-brain-bordered-tables
+  - id: second-brain-colors
+    title: Area colors
+    type: heading
+    level: 2
+    collapsed: true
+  - id: second-brain-inbox-color-light
+    title: "Inbox — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#f59e0b'
+  - id: second-brain-inbox-color-dark
+    title: "Inbox — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#f59e0b'
+  - id: second-brain-personal-color-light
+    title: "Personal — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#ef7daa'
+  - id: second-brain-personal-color-dark
+    title: "Personal — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#ef7daa'
+  - id: second-brain-work-color-light
+    title: "Work — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#60a5fa'
+  - id: second-brain-work-color-dark
+    title: "Work — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#60a5fa'
+  - id: second-brain-resources-color-light
+    title: "Resources — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#34d399'
+  - id: second-brain-resources-color-dark
+    title: "Resources — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#34d399'
+  - id: second-brain-planner-color-light
+    title: "Planner — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#a78bfa'
+  - id: second-brain-planner-color-dark
+    title: "Planner — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#a78bfa'
+  - id: second-brain-system-color-light
+    title: "System — light mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#94a3b8'
+  - id: second-brain-system-color-dark
+    title: "System — dark mode"
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#94a3b8'
+*/
+
+
+/* Shared area palette; no Graph settings are changed. */
+body.theme-light {
+  --second-brain-inbox-color: var(--second-brain-inbox-color-light,#f59e0b);
+  --second-brain-personal-color: var(--second-brain-personal-color-light,#ef7daa);
+  --second-brain-work-color: var(--second-brain-work-color-light,#60a5fa);
+  --second-brain-resources-color: var(--second-brain-resources-color-light,#34d399);
+  --second-brain-planner-color: var(--second-brain-planner-color-light,#a78bfa);
+  --second-brain-system-color: var(--second-brain-system-color-light,#94a3b8);
+}
+body.theme-dark {
+  --second-brain-inbox-color: var(--second-brain-inbox-color-dark,#f59e0b);
+  --second-brain-personal-color: var(--second-brain-personal-color-dark,#ef7daa);
+  --second-brain-work-color: var(--second-brain-work-color-dark,#60a5fa);
+  --second-brain-resources-color: var(--second-brain-resources-color-dark,#34d399);
+  --second-brain-planner-color: var(--second-brain-planner-color-dark,#a78bfa);
+  --second-brain-system-color: var(--second-brain-system-color-dark,#94a3b8);
+}
+
+/* Image selection follows Obsidian's theme, including a manual override of the OS.
+   Alt markers also work when Obsidian strips the GitHub fragment from the URL. */
+body.theme-light :is(img,.image-embed)[alt="Second Brain by Hence — dark mode"],
+body.theme-dark :is(img,.image-embed)[alt="Second Brain by Hence — light mode"],
+body.theme-light :is(img,.image-embed)[alt="Six areas — dark mode"],
+body.theme-dark :is(img,.image-embed)[alt="Six areas — light mode"] { display: none; }
+
+:is(.second-brain-index,
+    .markdown-preview-view:has(img[alt^="Second Brain by Hence"]),
+    .markdown-source-view:has(img[alt^="Second Brain by Hence"])) {
+  --file-line-width: calc(var(--second-brain-reading-width,760) * 1px);
+}
+.second-brain-inbox { --second-brain-accent: var(--second-brain-inbox-color,#f59e0b); }
+.second-brain-personal { --second-brain-accent: var(--second-brain-personal-color,#ef7daa); }
+.second-brain-work { --second-brain-accent: var(--second-brain-work-color,#60a5fa); }
+.second-brain-resources { --second-brain-accent: var(--second-brain-resources-color,#34d399); }
+.second-brain-planner { --second-brain-accent: var(--second-brain-planner-color,#a78bfa); }
+.second-brain-system { --second-brain-accent: var(--second-brain-system-color,#94a3b8); }
+
+/* Guidance has its own heading. Index metadata remains editable in Live Preview. */
+.markdown-preview-view.second-brain-index :is(.inline-title,.metadata-container),
+.markdown-preview-view:has(img[alt^="Second Brain by Hence"]) .inline-title { display: none; }
+body:not(.second-brain-native-headings) .markdown-source-view.second-brain-index {
+  --h1-size: 2.2em;
+  --h2-size: 1.25em;
+}
+body:not(.second-brain-accents-off) .markdown-source-view.second-brain-index .HyperMD-header-1 {
+  border-left: 4px solid var(--second-brain-accent,var(--second-brain-system-color,#94a3b8));
+  padding-left: 8px;
+}
+
+body:not(.second-brain-native-headings) :is(.second-brain-index,
+ .markdown-preview-view:has(img[alt^="Second Brain by Hence"])) :is(h1,h2) {
+  color: var(--text-normal);
+  line-height: 1.25;
+  letter-spacing: -.025em;
+}
+body:not(.second-brain-native-headings) .second-brain-index h1 {
+  font-size: 2.2em;
+  margin-bottom: 8px;
+}
+body:not(.second-brain-native-headings) :is(.second-brain-index,
+ .markdown-preview-view:has(img[alt^="Second Brain by Hence"])) h2 {
+  font-size: 1.25em;
+  margin-top: calc(var(--second-brain-heading-gap,32px) + var(--second-brain-extra-space,0) * 1px);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+body:not(.second-brain-accents-off) .second-brain-index h1 {
+  border-left: 4px solid var(--second-brain-accent,var(--second-brain-system-color,#94a3b8));
+  padding-left: 8px;
+}
+.second-brain-index :is(p,li) { overflow-wrap: anywhere; }
+.second-brain-index li + li { margin-top: 4px; }
+.second-brain-index .callout { margin-top: 20px; }
+.second-brain-index .callout-content > :last-child { margin-bottom: 4px; }
+
+body:not(.second-brain-bordered-tables) .second-brain-index :is(th,td) {
+  border-left: 0;
+  border-right: 0;
+}
+.second-brain-index :is(th,td) { padding: 12px 16px; }
+.second-brain-index th { background: var(--background-secondary); }
+.second-brain-index .table-wrapper { overflow-x: auto; }
+
+/* Responsive images only in the supplied entry and guidance. */
+:is(.second-brain-index,
+ .markdown-preview-view:has(img[alt^="Second Brain by Hence"])) img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width:700px) {
+  body:not(.second-brain-native-headings) .second-brain-index h1 { font-size: 1.8em; }
+  .second-brain-index :is(th,td) { padding: 8px; }
+}
+
+/* Native picker previews before their lazy dialogs initialize. No plugin code changes. */
+.style-settings-container .setting-item[data-id="hence-ui-background-light"] { --pcr-color: var(--hence-ui-background-light,#ffffff); }
+.style-settings-container .setting-item[data-id="hence-ui-background-dark"] { --pcr-color: var(--hence-ui-background-dark,#000000); }
+.style-settings-container .setting-item[data-id="hence-ui-surface-light"] { --pcr-color: var(--hence-ui-surface-light,#f5f5f5); }
+.style-settings-container .setting-item[data-id="hence-ui-surface-dark"] { --pcr-color: var(--hence-ui-surface-dark,#131313); }
+.style-settings-container .setting-item[data-id="hence-ui-text-light"] { --pcr-color: var(--hence-ui-text-light,#000000); }
+.style-settings-container .setting-item[data-id="hence-ui-text-dark"] { --pcr-color: var(--hence-ui-text-dark,#ffffff); }
+.style-settings-container .setting-item[data-id="hence-ui-muted-light"] { --pcr-color: var(--hence-ui-muted-light,#595959); }
+.style-settings-container .setting-item[data-id="hence-ui-muted-dark"] { --pcr-color: var(--hence-ui-muted-dark,#b3b3b3); }
+.style-settings-container .setting-item[data-id="hence-ui-border-light"] { --pcr-color: var(--hence-ui-border-light,#d1d1d1); }
+.style-settings-container .setting-item[data-id="hence-ui-border-dark"] { --pcr-color: var(--hence-ui-border-dark,#333333); }
+.style-settings-container .setting-item[data-id="hence-ui-accent-light"] { --pcr-color: var(--hence-ui-accent-light,#2e7633); }
+.style-settings-container .setting-item[data-id="hence-ui-accent-dark"] { --pcr-color: var(--hence-ui-accent-dark,#53b559); }
+.style-settings-container .setting-item[data-id="hence-ui-on-accent-light"] { --pcr-color: var(--hence-ui-on-accent-light,#ffffff); }
+.style-settings-container .setting-item[data-id="hence-ui-on-accent-dark"] { --pcr-color: var(--hence-ui-on-accent-dark,#000000); }
+.style-settings-container .setting-item[data-id="second-brain-inbox-color-light"] { --pcr-color: var(--second-brain-inbox-color-light,#f59e0b); }
+.style-settings-container .setting-item[data-id="second-brain-inbox-color-dark"] { --pcr-color: var(--second-brain-inbox-color-dark,#f59e0b); }
+.style-settings-container .setting-item[data-id="second-brain-personal-color-light"] { --pcr-color: var(--second-brain-personal-color-light,#ef7daa); }
+.style-settings-container .setting-item[data-id="second-brain-personal-color-dark"] { --pcr-color: var(--second-brain-personal-color-dark,#ef7daa); }
+.style-settings-container .setting-item[data-id="second-brain-work-color-light"] { --pcr-color: var(--second-brain-work-color-light,#60a5fa); }
+.style-settings-container .setting-item[data-id="second-brain-work-color-dark"] { --pcr-color: var(--second-brain-work-color-dark,#60a5fa); }
+.style-settings-container .setting-item[data-id="second-brain-resources-color-light"] { --pcr-color: var(--second-brain-resources-color-light,#34d399); }
+.style-settings-container .setting-item[data-id="second-brain-resources-color-dark"] { --pcr-color: var(--second-brain-resources-color-dark,#34d399); }
+.style-settings-container .setting-item[data-id="second-brain-planner-color-light"] { --pcr-color: var(--second-brain-planner-color-light,#a78bfa); }
+.style-settings-container .setting-item[data-id="second-brain-planner-color-dark"] { --pcr-color: var(--second-brain-planner-color-dark,#a78bfa); }
+.style-settings-container .setting-item[data-id="second-brain-system-color-light"] { --pcr-color: var(--second-brain-system-color-light,#94a3b8); }
+.style-settings-container .setting-item[data-id="second-brain-system-color-dark"] { --pcr-color: var(--second-brain-system-color-dark,#94a3b8); }
+.style-settings-container .setting-item[data-id^="hence-ui-"] .pcr-button, .style-settings-container .setting-item[data-id^="second-brain-"] .pcr-button { width: 32px; height: 32px; }
+
+/* Shared density presets. Optional overrides do not touch personal-note styles. */
+body { --second-brain-line-default: 1.75; --second-brain-block-gap: 16px; --second-brain-heading-gap: 32px; --second-brain-cell-padding: 12px; --second-brain-list-gap: 8px; }
+body.second-brain-compact { --second-brain-line-default: 1.5; --second-brain-block-gap: 12px; --second-brain-heading-gap: 24px; --second-brain-cell-padding: 8px; --second-brain-list-gap: 4px; }
+body.second-brain-spacious { --second-brain-line-default: 2; --second-brain-block-gap: 24px; --second-brain-heading-gap: 40px; --second-brain-cell-padding: 16px; --second-brain-list-gap: 12px; }
+:is(.second-brain-index,.markdown-preview-view:has(img[alt^="Second Brain by Hence"]),.markdown-source-view:has(img[alt^="Second Brain by Hence"])) { --line-height-normal: var(--second-brain-line-height,var(--second-brain-line-default)); }
+:is(.second-brain-index,.markdown-preview-view:has(img[alt^="Second Brain by Hence"]),.markdown-source-view:has(img[alt^="Second Brain by Hence"])) :is(p,ul,ol) { margin-block: calc(var(--second-brain-block-gap) + var(--second-brain-extra-space,0) * 1px); }
+:is(.second-brain-index,.markdown-preview-view:has(img[alt^="Second Brain by Hence"]),.markdown-source-view:has(img[alt^="Second Brain by Hence"])) li + li { margin-top: max(4px,calc(var(--second-brain-list-gap) + var(--second-brain-extra-space,0) * 1px)); }
+:is(.second-brain-index,.markdown-preview-view:has(img[alt^="Second Brain by Hence"]),.markdown-source-view:has(img[alt^="Second Brain by Hence"])) :is(th,td) { padding: max(4px,calc(var(--second-brain-cell-padding) + var(--second-brain-extra-space,0) * 1px)) 16px; }
+
+.style-settings-container .setting-item[data-id^="hence-ui-"] .pcr-button,
+.style-settings-container .setting-item[data-id^="hence-ui-"] .pcr-button::before,
+.style-settings-container .setting-item[data-id^="hence-ui-"] .pcr-button::after,
+.style-settings-container .setting-item[data-id^="second-brain-"] .pcr-button,
+.style-settings-container .setting-item[data-id^="second-brain-"] .pcr-button::before,
+.style-settings-container .setting-item[data-id^="second-brain-"] .pcr-button::after { border-radius: 4px; }
+
+/* Keep even black/white swatches distinguishable from their surrounding panel. */
+.style-settings-container .setting-item[data-id^="hence-ui-"] .pcr-button,
+.style-settings-container .setting-item[data-id^="second-brain-"] .pcr-button { box-shadow: 0 0 0 1px var(--text-muted); }

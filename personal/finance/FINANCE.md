@@ -1,31 +1,28 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-personal
 ---
 
 # Finance
 
-Organize your financial plans and documents here. The collection provides a way to find records; it does not prescribe products, investments, or financial decisions.
+[Parent: Personal](../PERSONAL.md)
+
+Financial plans and documents, organized for retrieval.
+
+## Use
+
+Keep known dates, currency and original evidence. Distinguish estimates from confirmed amounts; link records instead of duplicating them.
 
 ## Collections
 
-| Collection | Use |
+| Collection | Keep here |
 | --- | --- |
-| [Budgets](budgets/BUDGETS.md) | Plans and comparisons between expected and recorded amounts. |
-| [Invoices](invoices/INVOICES.md) | Purchase receipts, invoices, and their supporting notes. |
+| [Budgets](budgets/BUDGETS.md) | Planned and actual amounts. |
+| [Invoices](invoices/INVOICES.md) | Invoices, receipts and context. |
 
-## Record and retrieve
-
-- Keep original documents when you need evidence.
-- Add a note explaining the document's purpose, known date, and related activity.
-- Distinguish estimates from confirmed amounts and state currency when relevant.
-
-> [!example]- Example
-> A household purchase can have its invoice here, an equipment note in [Personal](../PERSONAL.md), and a follow-up action on Kanban.
-
-- Link documents from the note that uses them rather than keeping several copies.
-- Keep access credentials in a suitable secure manager, and treat your populated financial records as private.
-
-[Parent: Personal](../PERSONAL.md)
+**Private records:** keep credentials in a suitable secure manager; review financial documents before sharing.
 
 ## Files and collections
 

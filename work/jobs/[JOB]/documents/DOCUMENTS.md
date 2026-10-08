@@ -1,15 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Documents
 
-- Role-specific supporting material.
-- Create a NOTE for each subject.
-- Record purpose, source, and relevant dates.
-- Link each original file from its explanatory note.
-
 [Parent: Job placeholder](../JOB.md)
+
+Original supporting material specific to this role.
+
+## Use
+
+- Create a NOTE describing each document's purpose, source and relevant dates.
+- Link the original file from its explanatory note.
+- Keep current documents easy to identify; preserve history only when useful.
 
 ## Files and collections
 

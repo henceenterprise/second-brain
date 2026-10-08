@@ -1,14 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-work
 ---
 
 # Responsibilities
 
-- Role requirements and ongoing duties.
-- Create a NOTE for each subject.
-- Describe expected outcomes, boundaries, and useful context.
-
 [Parent: Job placeholder](../JOB.md)
+
+Ongoing duties and requirements of this role.
+
+## Use
+
+- Create a NOTE for each responsibility when it needs detail.
+- Describe expected outcomes, boundaries and useful context.
+- Link supporting records and track concrete actions in Planner.
 
 ## Files and collections
 

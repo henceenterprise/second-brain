@@ -1,14 +1,21 @@
 ---
 type: index
+cssclasses:
+  - second-brain-index
+  - second-brain-resources
 ---
 
 # Concepts
 
-- Use NOTE for an explanation or principle.
-- Define it in plain language, include an example, and link its source.
-- Explain limits or competing interpretations when relevant.
-
 [Parent: References](../REFERENCES.md)
+
+Explanations, definitions and principles you can apply again.
+
+## Use
+
+- Create a NOTE and define the concept in plain language.
+- Add an example and link the original source.
+- State relevant limits or competing interpretations.
 
 ## Files and collections
 
