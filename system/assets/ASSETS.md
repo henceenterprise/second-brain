@@ -20,6 +20,8 @@ Images used by the vault guide. Light and dark variants follow your chosen mode.
 
 Editable artwork and original brand inputs stay in repository maintenance, outside the personal note tree.
 
+The current banners (1600 × 464) and both area maps (1600 × 486) were designed by David in Figma and exported as transparent PNGs. Superseded banner and map SVGs were removed; their history remains in Git.
+
 ## Files and collections
 
 ```base

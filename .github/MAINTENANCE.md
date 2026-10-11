@@ -16,8 +16,8 @@ These documents support maintenance of the public template source. For personal 
 
 Original build inputs: [white Hence logo](artwork/hence-horizontal-principal.png) · [black Hence logo](artwork/hence-horizontal-reverso.png). Editable SVGs and originals are kept here; the vault asset collection contains five display PNGs.
 
-- Transparent banners: [light PNG](../system/assets/second-brain-cover.png) · [light SVG](artwork/second-brain-cover.svg) · [dark PNG](../system/assets/second-brain-cover-dark.png) · [dark SVG](artwork/second-brain-cover-dark.svg)
-- Six-area maps: [light PNG](../system/assets/second-brain-map.png) · [light SVG](artwork/second-brain-map.svg) · [dark PNG](../system/assets/second-brain-map-dark.png) · [dark SVG](artwork/second-brain-map-dark.svg)
+- Current transparent banners: [light PNG](../system/assets/second-brain-cover.png) · [dark PNG](../system/assets/second-brain-cover-dark.png). Designed and exported by David from Figma; adopted locally on 2026-10-11.
+- Six-area maps: [light PNG](../system/assets/second-brain-map.png) · [dark PNG](../system/assets/second-brain-map-dark.png). Both maps were designed and exported by David from Figma and adopted locally on 2026-10-11. Superseded banner and map SVGs were removed at David's request; their history remains in Git.
 - [Optional native-theme interface](../.obsidian/snippets/hence-interface.css) — black/white, green accent and independent light/dark colors, advanced sizes, spacing and corners. Built for the native theme; disable this snippet before switching to another community theme. It works with defaults without Style Settings.
 - [Optional presentation CSS](../.obsidian/snippets/second-brain-presentation.css) — scoped guidance, theme-aware images and the single **Second Brain** Style Settings panel.
 - [Clean Windows overview](../system/assets/second-brain-overview.png) — the currently open template, without personal notes or a cursor.

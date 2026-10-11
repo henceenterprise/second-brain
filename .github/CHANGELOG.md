@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.1 — 2026-10-11
+
+- New Figma artwork by David: transparent light/dark banners and six-area maps.
+- Banners include A PERSONAL OBSIDIAN VAULT; updated asset documentation.
+- Removed four superseded banner/map SVGs.
+- Code, plugins, layouts and Obsidian configuration unchanged from v1.1.0.
+
 ## 1.1.0 — 2026-10-08
 
 - Transparent light/dark Hence identity, six-area map, real vault overview and matching social preview.
